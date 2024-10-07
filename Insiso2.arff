@@ -1,0 +1,1522 @@
+@relation Insiso2
+
+@attribute 'Marca de tiempo' {'14/06/2022 20:02','14/06/2022 20:03','14/06/2022 20:04','14/06/2022 20:05','14/06/2022 20:06','14/06/2022 20:07','14/06/2022 20:11','14/06/2022 22:04','14/06/2022 22:05','14/06/2022 22:06','14/06/2022 22:07','14/06/2022 22:08','14/06/2022 22:09','14/06/2022 22:10','14/06/2022 22:15','14/06/2022 22:16','14/06/2022 22:17','14/06/2022 22:18','14/06/2022 23:25','14/06/2022 23:26','14/06/2022 23:27','14/06/2022 23:28','14/06/2022 23:29','14/06/2022 23:30','14/06/2022 23:31','14/06/2022 23:32','14/06/2022 23:33','14/06/2022 23:34','14/06/2022 23:35','14/06/2022 23:36','14/06/2022 23:37','14/06/2022 23:38','14/06/2022 23:39','14/06/2022 23:40','14/06/2022 23:41','14/06/2022 23:42','14/06/2022 23:43','14/06/2022 23:44','14/06/2022 23:45','14/06/2022 23:46','14/06/2022 23:47','14/06/2022 23:48','14/06/2022 23:49','14/06/2022 23:50','14/06/2022 23:52','14/06/2022 23:53','15/06/2022 0:02','15/06/2022 0:06','15/06/2022 0:07','15/06/2022 0:10','15/06/2022 0:11','15/06/2022 0:12','15/06/2022 0:13','15/06/2022 0:14','15/06/2022 0:16','15/06/2022 0:17','15/06/2022 0:18','15/06/2022 0:19','15/06/2022 0:20','15/06/2022 0:21','15/06/2022 0:22','15/06/2022 0:23','15/06/2022 0:24','15/06/2022 0:25','15/06/2022 0:26','15/06/2022 0:27','15/06/2022 0:28','15/06/2022 0:29','15/06/2022 0:30','15/06/2022 0:31','15/06/2022 0:32','15/06/2022 0:33','15/06/2022 0:34','15/06/2022 0:35','15/06/2022 0:36','15/06/2022 0:37','15/06/2022 0:38','15/06/2022 0:39','15/06/2022 0:40','15/06/2022 1:02','15/06/2022 1:03','15/06/2022 1:05','15/06/2022 1:08','15/06/2022 1:09','15/06/2022 1:10','15/06/2022 1:13','14/06/2022 22:19','14/06/2022 22:20','15/06/2022 22:18','15/06/2022 22:24'}
+@attribute Edad {35-40,40-45,30-35,45-50,25-30}
+@attribute 'Sentirse triste o lloroso ' {Sí,No,'A veces'}
+@attribute 'Irritable con el bebé y su pareja' {Sí,No,'A veces'}
+@attribute 'Dificultad para dormir por la noche' {'Dos o más días a la semana',No,Sí}
+@attribute 'Problemas para concentrarse o tomar decisiones' {Sí,No,'A menudo'}
+@attribute 'Comer en exceso o pérdida de apetito' {Sí,No,'De nada'}
+@attribute 'Sentirse ansioso' {Sí,No}
+@attribute 'Sentimiento de culpa' {No,Sí,'Tal vez'}
+@attribute 'Problemas de vínculo con el bebé' {Sí,'A veces',No}
+@attribute 'intento de suicidio' {Sí,No,'No me interesa decirlo'}
+
+@data
+'14/06/2022 20:02',35-40,Sí,Sí,'Dos o más días a la semana',Sí,Sí,Sí,No,Sí,Sí
+'14/06/2022 20:04',35-40,Sí,No,Sí,Sí,Sí,Sí,No,'A veces',No
+'14/06/2022 20:05',35-40,Sí,Sí,Sí,Sí,No,Sí,'Tal vez',No,No
+'14/06/2022 20:06',40-45,Sí,No,'Dos o más días a la semana',Sí,No,Sí,No,Sí,No
+'14/06/2022 20:07',35-40,Sí,No,Sí,Sí,No,Sí,No,No,No
+'14/06/2022 22:05',40-45,Sí,No,No,Sí,No,Sí,No,No,Sí
+'14/06/2022 22:06',30-35,Sí,No,Sí,No,Sí,Sí,No,Sí,No
+'14/06/2022 22:15',35-40,Sí,Sí,No,'A menudo','De nada',Sí,No,'A veces','No me interesa decirlo'
+'14/06/2022 22:15',35-40,Sí,'A veces',Sí,Sí,'De nada',Sí,'Tal vez','A veces',Sí
+'14/06/2022 22:16',30-35,Sí,Sí,Sí,Sí,Sí,Sí,Sí,Sí,Sí
+'14/06/2022 22:18',30-35,Sí,No,'Dos o más días a la semana',No,'De nada',Sí,No,'A veces',Sí
+'14/06/2022 23:26',30-35,Sí,Sí,No,'A menudo','De nada',Sí,'Tal vez','A veces',No
+'14/06/2022 23:26',45-50,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'14/06/2022 23:29',45-50,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'14/06/2022 23:32',35-40,Sí,No,No,Sí,No,Sí,'Tal vez',Sí,'No me interesa decirlo'
+'14/06/2022 23:33',35-40,Sí,Sí,No,Sí,No,Sí,No,'A veces',No
+'14/06/2022 23:35',35-40,Sí,No,No,'A menudo','De nada',Sí,No,'A veces',No
+'14/06/2022 23:37',45-50,Sí,No,Sí,No,'De nada',Sí,No,Sí,'No me interesa decirlo'
+'14/06/2022 23:47',45-50,Sí,'A veces',No,Sí,'De nada',Sí,No,'A veces',No
+'14/06/2022 23:49',45-50,Sí,Sí,No,Sí,No,Sí,'Tal vez','A veces',Sí
+'15/06/2022 0:12',35-40,Sí,No,Sí,'A menudo',No,Sí,No,'A veces',No
+'15/06/2022 0:13',35-40,Sí,No,Sí,'A menudo',Sí,Sí,Sí,'A veces',No
+'15/06/2022 0:14',40-45,Sí,No,Sí,No,Sí,Sí,No,'A veces','No me interesa decirlo'
+'15/06/2022 0:19',25-30,Sí,No,Sí,No,Sí,Sí,Sí,'A veces',Sí
+'15/06/2022 0:19',25-30,Sí,No,Sí,Sí,Sí,Sí,Sí,No,Sí
+'15/06/2022 0:20',25-30,Sí,Sí,No,Sí,No,Sí,'Tal vez','A veces',Sí
+'15/06/2022 0:20',30-35,Sí,No,Sí,'A menudo','De nada',Sí,'Tal vez',Sí,'No me interesa decirlo'
+'15/06/2022 0:22',30-35,Sí,No,No,Sí,Sí,Sí,'Tal vez','A veces',No
+'15/06/2022 0:23',40-45,Sí,'A veces','Dos o más días a la semana',No,Sí,Sí,No,'A veces',No
+'15/06/2022 0:24',30-35,Sí,'A veces',Sí,'A menudo',No,Sí,'Tal vez',No,Sí
+'15/06/2022 0:26',45-50,Sí,Sí,No,No,'De nada',Sí,'Tal vez',No,Sí
+'15/06/2022 0:28',40-45,Sí,No,No,No,'De nada',Sí,'Tal vez',Sí,No
+'15/06/2022 0:30',35-40,Sí,No,'Dos o más días a la semana','A menudo','De nada',Sí,'Tal vez',Sí,No
+'15/06/2022 0:31',40-45,Sí,No,Sí,'A menudo',Sí,Sí,Sí,'A veces',No
+'15/06/2022 0:32',45-50,Sí,'A veces','Dos o más días a la semana',Sí,'De nada',Sí,Sí,No,No
+'15/06/2022 0:34',45-50,Sí,No,Sí,'A menudo',No,Sí,'Tal vez',Sí,No
+'15/06/2022 0:40',45-50,Sí,No,Sí,'A menudo',No,Sí,No,Sí,No
+'15/06/2022 1:02',35-40,Sí,No,Sí,'A menudo','De nada',Sí,No,Sí,'No me interesa decirlo'
+'15/06/2022 1:10',45-50,Sí,No,No,Sí,No,Sí,'Tal vez',Sí,No
+'14/06/2022 22:19',35-40,Sí,Sí,'Dos o más días a la semana',Sí,No,Sí,'Tal vez',Sí,No
+'14/06/2022 22:19',40-45,Sí,Sí,Sí,Sí,No,Sí,No,No,No
+'14/06/2022 22:19',45-50,Sí,Sí,No,Sí,Sí,Sí,No,No,Sí
+'14/06/2022 22:20',35-40,Sí,Sí,'Dos o más días a la semana',No,No,Sí,No,'A veces','No me interesa decirlo'
+'15/06/2022 22:24',35-40,Sí,Sí,Sí,No,Sí,Sí,Sí,'A veces',Sí
+'15/06/2022 22:24',40-45,Sí,Sí,Sí,No,No,Sí,No,No,'No me interesa decirlo'
+'15/06/2022 22:24',40-45,Sí,Sí,Sí,No,'De nada',Sí,'Tal vez',No,No
+'15/06/2022 0:34',30-35,Sí,Sí,No,Sí,No,Sí,'Tal vez',No,'No me interesa decirlo'
+'15/06/2022 1:02',45-50,Sí,No,Sí,No,'De nada',Sí,No,Sí,No
+'15/06/2022 1:10',25-30,Sí,Sí,'Dos o más días a la semana',Sí,No,Sí,No,'A veces',Sí
+'14/06/2022 22:19',40-45,Sí,Sí,Sí,No,No,Sí,'Tal vez',Sí,No
+'14/06/2022 22:19',40-45,Sí,Sí,Sí,Sí,Sí,Sí,No,Sí,Sí
+'14/06/2022 22:19',35-40,Sí,Sí,No,No,No,Sí,'Tal vez',Sí,No
+'14/06/2022 22:20',35-40,Sí,'A veces','Dos o más días a la semana','A menudo',Sí,Sí,No,Sí,Sí
+'14/06/2022 22:20',30-35,Sí,'A veces',Sí,'A menudo',Sí,Sí,No,No,Sí
+'15/06/2022 22:24',40-45,Sí,Sí,'Dos o más días a la semana',?,'De nada',Sí,?,Sí,Sí
+'15/06/2022 22:24',35-40,Sí,?,Sí,?,Sí,Sí,?,No,No
+'15/06/2022 22:24',40-45,Sí,?,No,?,No,Sí,?,'A veces',No
+'14/06/2022 20:02',35-40,Sí,Sí,'Dos o más días a la semana',Sí,Sí,Sí,No,Sí,Sí
+'14/06/2022 20:04',35-40,Sí,No,Sí,Sí,Sí,Sí,No,'A veces',No
+'14/06/2022 20:05',35-40,Sí,Sí,Sí,Sí,No,Sí,'Tal vez',No,No
+'14/06/2022 20:06',40-45,Sí,No,'Dos o más días a la semana',Sí,No,Sí,No,Sí,No
+'14/06/2022 20:07',35-40,Sí,No,Sí,Sí,No,Sí,No,No,No
+'14/06/2022 22:05',40-45,Sí,No,No,Sí,No,Sí,No,No,Sí
+'14/06/2022 22:06',30-35,Sí,No,Sí,No,Sí,Sí,No,Sí,No
+'14/06/2022 22:15',35-40,Sí,Sí,No,'A menudo','De nada',Sí,No,'A veces','No me interesa decirlo'
+'14/06/2022 22:15',35-40,Sí,'A veces',Sí,Sí,'De nada',Sí,'Tal vez','A veces',Sí
+'14/06/2022 22:16',30-35,Sí,Sí,Sí,Sí,Sí,Sí,Sí,Sí,Sí
+'14/06/2022 22:18',30-35,Sí,No,'Dos o más días a la semana',No,'De nada',Sí,No,'A veces',Sí
+'14/06/2022 23:26',30-35,Sí,Sí,No,'A menudo','De nada',Sí,'Tal vez','A veces',No
+'14/06/2022 23:26',45-50,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'14/06/2022 23:29',45-50,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'14/06/2022 23:31',35-40,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'14/06/2022 23:34',40-45,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'14/06/2022 23:37',45-50,Sí,No,'Dos o más días a la semana',No,'De nada',Sí,No,'A veces',Sí
+'14/06/2022 23:37',35-40,Sí,Sí,No,'A menudo','De nada',Sí,'Tal vez','A veces',No
+'14/06/2022 23:38',40-45,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'14/06/2022 23:40',30-35,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'14/06/2022 23:42',30-35,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'14/06/2022 23:45',40-45,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'14/06/2022 23:47',45-50,Sí,Sí,No,'A menudo','De nada',Sí,'Tal vez','A veces',No
+'14/06/2022 23:47',45-50,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'14/06/2022 23:50',30-35,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'14/06/2022 23:53',30-35,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'15/06/2022 0:11',30-35,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'15/06/2022 0:12',35-40,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'15/06/2022 0:17',40-45,Sí,Sí,No,'A menudo','De nada',Sí,No,'A veces','No me interesa decirlo'
+'15/06/2022 0:18',45-50,Sí,'A veces',Sí,Sí,'De nada',Sí,'Tal vez','A veces',Sí
+'15/06/2022 0:19',25-30,Sí,Sí,Sí,Sí,Sí,Sí,Sí,Sí,Sí
+'15/06/2022 0:22',40-45,Sí,No,'Dos o más días a la semana',No,'De nada',Sí,No,'A veces',Sí
+'15/06/2022 0:23',40-45,Sí,Sí,No,'A menudo','De nada',Sí,'Tal vez','A veces',No
+'15/06/2022 0:24',25-30,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'15/06/2022 0:26',25-30,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'15/06/2022 0:27',25-30,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'15/06/2022 0:28',35-40,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'15/06/2022 0:29',35-40,Sí,No,'Dos o más días a la semana',No,'De nada',Sí,No,'A veces',Sí
+'15/06/2022 0:29',35-40,Sí,Sí,No,'A menudo','De nada',Sí,'Tal vez','A veces',No
+'15/06/2022 0:30',45-50,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'15/06/2022 0:31',35-40,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'15/06/2022 0:31',30-35,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'15/06/2022 0:33',45-50,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'15/06/2022 0:34',45-50,Sí,Sí,No,'A menudo','De nada',Sí,'Tal vez','A veces',No
+'15/06/2022 0:35',30-35,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'15/06/2022 0:37',25-30,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'15/06/2022 0:39',25-30,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'15/06/2022 1:09',25-30,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'15/06/2022 1:13',25-30,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'14/06/2022 22:05',40-45,Sí,No,No,Sí,No,Sí,No,No,Sí
+'14/06/2022 22:06',30-35,Sí,No,Sí,No,Sí,Sí,No,Sí,No
+'14/06/2022 22:15',35-40,Sí,Sí,No,'A menudo','De nada',Sí,No,'A veces','No me interesa decirlo'
+'14/06/2022 22:15',35-40,Sí,'A veces',Sí,Sí,'De nada',Sí,'Tal vez','A veces',Sí
+'14/06/2022 22:16',30-35,Sí,Sí,Sí,Sí,Sí,Sí,Sí,Sí,Sí
+'14/06/2022 22:18',30-35,Sí,No,'Dos o más días a la semana',No,'De nada',Sí,No,'A veces',Sí
+'14/06/2022 23:26',30-35,Sí,Sí,No,'A menudo','De nada',Sí,'Tal vez','A veces',No
+'14/06/2022 23:26',45-50,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'14/06/2022 23:29',45-50,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'14/06/2022 23:32',35-40,Sí,No,No,Sí,No,Sí,'Tal vez',Sí,'No me interesa decirlo'
+'14/06/2022 23:33',35-40,Sí,Sí,No,Sí,No,Sí,No,'A veces',No
+'14/06/2022 23:35',35-40,Sí,No,No,'A menudo','De nada',Sí,No,'A veces',No
+'14/06/2022 23:37',45-50,Sí,No,Sí,No,'De nada',Sí,No,Sí,'No me interesa decirlo'
+'14/06/2022 23:47',45-50,Sí,'A veces',No,Sí,'De nada',Sí,No,'A veces',No
+'14/06/2022 23:49',45-50,Sí,Sí,No,Sí,No,Sí,'Tal vez','A veces',Sí
+'15/06/2022 0:12',35-40,Sí,No,Sí,'A menudo',No,Sí,No,'A veces',No
+'15/06/2022 0:13',35-40,Sí,No,Sí,'A menudo',Sí,Sí,Sí,'A veces',No
+'15/06/2022 0:14',40-45,Sí,No,Sí,No,Sí,Sí,No,'A veces','No me interesa decirlo'
+'15/06/2022 0:19',25-30,Sí,No,Sí,No,Sí,Sí,Sí,'A veces',Sí
+'15/06/2022 0:19',25-30,Sí,No,Sí,Sí,Sí,Sí,Sí,No,Sí
+'15/06/2022 0:20',25-30,Sí,Sí,No,Sí,No,Sí,'Tal vez','A veces',Sí
+'15/06/2022 0:20',30-35,Sí,No,Sí,'A menudo','De nada',Sí,'Tal vez',Sí,'No me interesa decirlo'
+'15/06/2022 0:22',30-35,Sí,No,No,Sí,Sí,Sí,'Tal vez','A veces',No
+'15/06/2022 0:23',40-45,Sí,'A veces','Dos o más días a la semana',No,Sí,Sí,No,'A veces',No
+'15/06/2022 0:24',30-35,Sí,'A veces',Sí,'A menudo',No,Sí,'Tal vez',No,Sí
+'15/06/2022 0:26',45-50,Sí,Sí,No,No,'De nada',Sí,'Tal vez',No,Sí
+'15/06/2022 0:28',40-45,Sí,No,No,No,'De nada',Sí,'Tal vez',Sí,No
+'15/06/2022 0:30',35-40,Sí,No,'Dos o más días a la semana','A menudo','De nada',Sí,'Tal vez',Sí,No
+'15/06/2022 0:31',40-45,Sí,No,Sí,'A menudo',Sí,Sí,Sí,'A veces',No
+'15/06/2022 0:32',45-50,Sí,'A veces','Dos o más días a la semana',Sí,'De nada',Sí,Sí,No,No
+'15/06/2022 0:34',45-50,Sí,No,Sí,'A menudo',No,Sí,'Tal vez',Sí,No
+'15/06/2022 0:40',45-50,Sí,No,Sí,'A menudo',No,Sí,No,Sí,No
+'15/06/2022 1:02',35-40,Sí,No,Sí,'A menudo','De nada',Sí,No,Sí,'No me interesa decirlo'
+'15/06/2022 1:10',45-50,Sí,No,No,Sí,No,Sí,'Tal vez',Sí,No
+'14/06/2022 22:19',35-40,Sí,Sí,'Dos o más días a la semana',Sí,No,Sí,'Tal vez',Sí,No
+'14/06/2022 22:19',40-45,Sí,Sí,Sí,Sí,No,Sí,No,No,No
+'14/06/2022 22:19',45-50,Sí,Sí,No,Sí,Sí,Sí,No,No,Sí
+'14/06/2022 22:20',35-40,Sí,Sí,'Dos o más días a la semana',No,No,Sí,No,'A veces','No me interesa decirlo'
+'15/06/2022 22:24',35-40,Sí,Sí,Sí,No,Sí,Sí,Sí,'A veces',Sí
+'15/06/2022 22:24',40-45,Sí,Sí,Sí,No,No,Sí,No,No,'No me interesa decirlo'
+'15/06/2022 22:24',40-45,Sí,Sí,Sí,No,'De nada',Sí,'Tal vez',No,No
+'15/06/2022 0:34',30-35,Sí,Sí,No,Sí,No,Sí,'Tal vez',No,'No me interesa decirlo'
+'15/06/2022 1:02',45-50,Sí,No,Sí,No,'De nada',Sí,No,Sí,No
+'15/06/2022 1:10',25-30,Sí,Sí,'Dos o más días a la semana',Sí,No,Sí,No,'A veces',Sí
+'14/06/2022 22:19',40-45,Sí,Sí,Sí,No,No,Sí,'Tal vez',Sí,No
+'14/06/2022 22:19',40-45,Sí,Sí,Sí,Sí,Sí,Sí,No,Sí,Sí
+'14/06/2022 22:19',35-40,Sí,Sí,No,No,No,Sí,'Tal vez',Sí,No
+'14/06/2022 22:20',35-40,Sí,'A veces','Dos o más días a la semana','A menudo',Sí,Sí,No,Sí,Sí
+'14/06/2022 22:20',30-35,Sí,'A veces',Sí,'A menudo',Sí,Sí,No,No,Sí
+'15/06/2022 22:24',40-45,Sí,Sí,'Dos o más días a la semana',?,'De nada',Sí,?,Sí,Sí
+'15/06/2022 22:24',35-40,Sí,?,Sí,?,Sí,Sí,?,No,No
+'15/06/2022 22:24',40-45,Sí,?,No,?,No,Sí,?,'A veces',No
+'14/06/2022 20:02',35-40,Sí,Sí,'Dos o más días a la semana',Sí,Sí,Sí,No,Sí,Sí
+'14/06/2022 20:04',35-40,Sí,No,Sí,Sí,Sí,Sí,No,'A veces',No
+'14/06/2022 20:05',35-40,Sí,Sí,Sí,Sí,No,Sí,'Tal vez',No,No
+'14/06/2022 20:06',40-45,Sí,No,'Dos o más días a la semana',Sí,No,Sí,No,Sí,No
+'14/06/2022 20:07',35-40,Sí,No,Sí,Sí,No,Sí,No,No,No
+'14/06/2022 22:05',40-45,Sí,No,No,Sí,No,Sí,No,No,Sí
+'14/06/2022 22:06',30-35,Sí,No,Sí,No,Sí,Sí,No,Sí,No
+'14/06/2022 22:15',35-40,Sí,Sí,No,'A menudo','De nada',Sí,No,'A veces','No me interesa decirlo'
+'14/06/2022 22:15',35-40,Sí,'A veces',Sí,Sí,'De nada',Sí,'Tal vez','A veces',Sí
+'14/06/2022 22:16',30-35,Sí,Sí,Sí,Sí,Sí,Sí,Sí,Sí,Sí
+'14/06/2022 22:18',30-35,Sí,No,'Dos o más días a la semana',No,'De nada',Sí,No,'A veces',Sí
+'14/06/2022 23:26',30-35,Sí,Sí,No,'A menudo','De nada',Sí,'Tal vez','A veces',No
+'14/06/2022 23:26',45-50,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'14/06/2022 23:29',45-50,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'14/06/2022 23:31',35-40,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'14/06/2022 23:34',40-45,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'14/06/2022 23:37',45-50,Sí,No,'Dos o más días a la semana',No,'De nada',Sí,No,'A veces',Sí
+'14/06/2022 23:37',35-40,Sí,Sí,No,'A menudo','De nada',Sí,'Tal vez','A veces',No
+'14/06/2022 23:38',40-45,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'14/06/2022 23:40',30-35,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'14/06/2022 23:42',30-35,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'14/06/2022 23:45',40-45,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'14/06/2022 23:47',45-50,Sí,Sí,No,'A menudo','De nada',Sí,'Tal vez','A veces',No
+'14/06/2022 23:47',45-50,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'14/06/2022 23:50',30-35,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'14/06/2022 23:53',30-35,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'15/06/2022 0:11',30-35,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'15/06/2022 0:12',35-40,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'15/06/2022 0:17',40-45,Sí,Sí,No,'A menudo','De nada',Sí,No,'A veces','No me interesa decirlo'
+'15/06/2022 0:18',45-50,Sí,'A veces',Sí,Sí,'De nada',Sí,'Tal vez','A veces',Sí
+'15/06/2022 0:19',25-30,Sí,Sí,Sí,Sí,Sí,Sí,Sí,Sí,Sí
+'15/06/2022 0:22',40-45,Sí,No,'Dos o más días a la semana',No,'De nada',Sí,No,'A veces',Sí
+'15/06/2022 0:23',40-45,Sí,Sí,No,'A menudo','De nada',Sí,'Tal vez','A veces',No
+'15/06/2022 0:24',25-30,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'15/06/2022 0:26',25-30,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'15/06/2022 0:27',25-30,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'15/06/2022 0:28',35-40,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'15/06/2022 0:29',35-40,Sí,No,'Dos o más días a la semana',No,'De nada',Sí,No,'A veces',Sí
+'15/06/2022 0:29',35-40,Sí,Sí,No,'A menudo','De nada',Sí,'Tal vez','A veces',No
+'15/06/2022 0:30',45-50,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'15/06/2022 0:31',35-40,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'15/06/2022 0:31',30-35,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'15/06/2022 0:33',45-50,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'15/06/2022 0:34',45-50,Sí,Sí,No,'A menudo','De nada',Sí,'Tal vez','A veces',No
+'15/06/2022 0:35',30-35,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'15/06/2022 0:37',25-30,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'15/06/2022 0:39',25-30,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'15/06/2022 1:09',25-30,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'15/06/2022 1:13',25-30,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'14/06/2022 22:16',30-35,Sí,Sí,Sí,Sí,Sí,Sí,Sí,Sí,Sí
+'14/06/2022 22:18',30-35,Sí,No,'Dos o más días a la semana',No,'De nada',Sí,No,'A veces',Sí
+'14/06/2022 23:26',30-35,Sí,Sí,No,'A menudo','De nada',Sí,'Tal vez','A veces',No
+'14/06/2022 23:26',45-50,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'14/06/2022 23:29',45-50,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'14/06/2022 23:31',35-40,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'14/06/2022 23:34',40-45,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'14/06/2022 23:37',45-50,Sí,No,'Dos o más días a la semana',No,'De nada',Sí,No,'A veces',Sí
+'14/06/2022 23:37',35-40,Sí,Sí,No,'A menudo','De nada',Sí,'Tal vez','A veces',No
+'14/06/2022 23:38',40-45,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'14/06/2022 23:40',30-35,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'14/06/2022 23:42',30-35,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'14/06/2022 23:45',40-45,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'14/06/2022 23:47',45-50,Sí,Sí,No,'A menudo','De nada',Sí,'Tal vez','A veces',No
+'14/06/2022 23:47',45-50,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'14/06/2022 23:50',30-35,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'14/06/2022 23:53',30-35,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'15/06/2022 0:11',30-35,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'15/06/2022 0:12',35-40,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'15/06/2022 0:17',40-45,Sí,Sí,No,'A menudo','De nada',Sí,No,'A veces','No me interesa decirlo'
+'15/06/2022 0:18',45-50,Sí,'A veces',Sí,Sí,'De nada',Sí,'Tal vez','A veces',Sí
+'15/06/2022 0:19',25-30,Sí,Sí,Sí,Sí,Sí,Sí,Sí,Sí,Sí
+'15/06/2022 0:22',40-45,Sí,No,'Dos o más días a la semana',No,'De nada',Sí,No,'A veces',Sí
+'15/06/2022 0:23',40-45,Sí,Sí,No,'A menudo','De nada',Sí,'Tal vez','A veces',No
+'15/06/2022 0:24',25-30,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'15/06/2022 0:26',25-30,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'15/06/2022 0:27',25-30,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'15/06/2022 0:28',35-40,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'15/06/2022 0:29',35-40,Sí,No,'Dos o más días a la semana',No,'De nada',Sí,No,'A veces',Sí
+'15/06/2022 0:29',35-40,Sí,Sí,No,'A menudo','De nada',Sí,'Tal vez','A veces',No
+'15/06/2022 0:30',45-50,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'15/06/2022 0:31',35-40,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'15/06/2022 0:31',30-35,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'15/06/2022 0:33',45-50,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'15/06/2022 0:34',45-50,Sí,Sí,No,'A menudo','De nada',Sí,'Tal vez','A veces',No
+'15/06/2022 0:35',30-35,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'15/06/2022 1:10',45-50,Sí,No,No,Sí,No,Sí,'Tal vez',Sí,No
+'14/06/2022 22:19',35-40,Sí,Sí,'Dos o más días a la semana',Sí,No,Sí,'Tal vez',Sí,No
+'14/06/2022 22:19',40-45,Sí,Sí,Sí,Sí,No,Sí,No,No,No
+'14/06/2022 22:19',45-50,Sí,Sí,No,Sí,Sí,Sí,No,No,Sí
+'14/06/2022 22:20',35-40,Sí,Sí,'Dos o más días a la semana',No,No,Sí,No,'A veces','No me interesa decirlo'
+'15/06/2022 22:24',35-40,Sí,Sí,Sí,No,Sí,Sí,Sí,'A veces',Sí
+'15/06/2022 22:24',40-45,Sí,Sí,Sí,No,No,Sí,No,No,'No me interesa decirlo'
+'15/06/2022 22:24',40-45,Sí,Sí,Sí,No,'De nada',Sí,'Tal vez',No,No
+'15/06/2022 0:34',30-35,Sí,Sí,No,Sí,No,Sí,'Tal vez',No,'No me interesa decirlo'
+'15/06/2022 1:02',45-50,Sí,No,Sí,No,'De nada',Sí,No,Sí,No
+'15/06/2022 1:10',25-30,Sí,Sí,'Dos o más días a la semana',Sí,No,Sí,No,'A veces',Sí
+'14/06/2022 22:19',40-45,Sí,Sí,Sí,No,No,Sí,'Tal vez',Sí,No
+'14/06/2022 22:19',40-45,Sí,Sí,Sí,Sí,Sí,Sí,No,Sí,Sí
+'14/06/2022 22:19',35-40,Sí,Sí,No,No,No,Sí,'Tal vez',Sí,No
+'14/06/2022 22:20',35-40,Sí,'A veces','Dos o más días a la semana','A menudo',Sí,Sí,No,Sí,Sí
+'14/06/2022 22:20',30-35,Sí,'A veces',Sí,'A menudo',Sí,Sí,No,No,Sí
+'15/06/2022 22:24',40-45,Sí,Sí,'Dos o más días a la semana',?,'De nada',Sí,?,Sí,Sí
+'15/06/2022 22:24',35-40,Sí,?,Sí,?,Sí,Sí,?,No,No
+'15/06/2022 22:24',40-45,Sí,?,No,?,No,Sí,?,'A veces',No
+'14/06/2022 20:02',35-40,Sí,Sí,'Dos o más días a la semana',Sí,Sí,Sí,No,Sí,Sí
+'14/06/2022 20:04',35-40,Sí,No,Sí,Sí,Sí,Sí,No,'A veces',No
+'14/06/2022 20:05',35-40,Sí,Sí,Sí,Sí,No,Sí,'Tal vez',No,No
+'14/06/2022 20:06',40-45,Sí,No,'Dos o más días a la semana',Sí,No,Sí,No,Sí,No
+'14/06/2022 20:07',35-40,Sí,No,Sí,Sí,No,Sí,No,No,No
+'14/06/2022 22:05',40-45,Sí,No,No,Sí,No,Sí,No,No,Sí
+'14/06/2022 22:06',30-35,Sí,No,Sí,No,Sí,Sí,No,Sí,No
+'14/06/2022 22:15',35-40,Sí,Sí,No,'A menudo','De nada',Sí,No,'A veces','No me interesa decirlo'
+'14/06/2022 22:15',35-40,Sí,'A veces',Sí,Sí,'De nada',Sí,'Tal vez','A veces',Sí
+'14/06/2022 22:16',30-35,Sí,Sí,Sí,Sí,Sí,Sí,Sí,Sí,Sí
+'14/06/2022 22:18',30-35,Sí,No,'Dos o más días a la semana',No,'De nada',Sí,No,'A veces',Sí
+'14/06/2022 23:26',30-35,Sí,Sí,No,'A menudo','De nada',Sí,'Tal vez','A veces',No
+'14/06/2022 23:26',45-50,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'14/06/2022 23:29',45-50,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'14/06/2022 23:31',35-40,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'14/06/2022 23:34',40-45,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'14/06/2022 23:37',45-50,Sí,No,'Dos o más días a la semana',No,'De nada',Sí,No,'A veces',Sí
+'14/06/2022 23:37',35-40,Sí,Sí,No,'A menudo','De nada',Sí,'Tal vez','A veces',No
+'14/06/2022 23:38',40-45,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'14/06/2022 23:40',30-35,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'14/06/2022 23:42',30-35,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'14/06/2022 23:45',40-45,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'14/06/2022 23:47',45-50,Sí,Sí,No,'A menudo','De nada',Sí,'Tal vez','A veces',No
+'14/06/2022 23:47',45-50,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'14/06/2022 23:50',30-35,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'14/06/2022 23:53',30-35,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'15/06/2022 0:11',30-35,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'15/06/2022 0:12',35-40,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'15/06/2022 0:17',40-45,Sí,Sí,No,'A menudo','De nada',Sí,No,'A veces','No me interesa decirlo'
+'15/06/2022 0:18',45-50,Sí,'A veces',Sí,Sí,'De nada',Sí,'Tal vez','A veces',Sí
+'15/06/2022 0:19',25-30,Sí,Sí,Sí,Sí,Sí,Sí,Sí,Sí,Sí
+'15/06/2022 0:22',40-45,Sí,No,'Dos o más días a la semana',No,'De nada',Sí,No,'A veces',Sí
+'15/06/2022 0:23',40-45,Sí,Sí,No,'A menudo','De nada',Sí,'Tal vez','A veces',No
+'15/06/2022 0:24',25-30,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'15/06/2022 0:26',25-30,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'15/06/2022 0:27',25-30,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'15/06/2022 0:28',35-40,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'15/06/2022 0:29',35-40,Sí,No,'Dos o más días a la semana',No,'De nada',Sí,No,'A veces',Sí
+'15/06/2022 0:29',35-40,Sí,Sí,No,'A menudo','De nada',Sí,'Tal vez','A veces',No
+'15/06/2022 0:30',45-50,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'15/06/2022 0:31',35-40,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'15/06/2022 0:31',30-35,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'15/06/2022 0:33',45-50,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'15/06/2022 0:34',45-50,Sí,Sí,No,'A menudo','De nada',Sí,'Tal vez','A veces',No
+'15/06/2022 0:35',30-35,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'15/06/2022 0:37',25-30,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'15/06/2022 0:39',25-30,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'15/06/2022 1:09',25-30,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'15/06/2022 1:13',25-30,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'14/06/2022 22:16',30-35,Sí,Sí,Sí,Sí,Sí,Sí,Sí,Sí,Sí
+'14/06/2022 22:18',30-35,Sí,No,'Dos o más días a la semana',No,'De nada',Sí,No,'A veces',Sí
+'14/06/2022 23:26',30-35,Sí,Sí,No,'A menudo','De nada',Sí,'Tal vez','A veces',No
+'14/06/2022 23:26',45-50,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'14/06/2022 23:29',45-50,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'14/06/2022 23:31',35-40,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'14/06/2022 23:34',40-45,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'14/06/2022 23:37',45-50,Sí,No,'Dos o más días a la semana',No,'De nada',Sí,No,'A veces',Sí
+'14/06/2022 23:37',35-40,Sí,Sí,No,'A menudo','De nada',Sí,'Tal vez','A veces',No
+'14/06/2022 23:38',40-45,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'14/06/2022 23:40',30-35,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'14/06/2022 23:42',30-35,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'14/06/2022 23:45',40-45,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'14/06/2022 23:47',45-50,Sí,Sí,No,'A menudo','De nada',Sí,'Tal vez','A veces',No
+'14/06/2022 23:47',45-50,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'14/06/2022 23:50',30-35,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'14/06/2022 23:53',30-35,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'15/06/2022 0:11',30-35,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'15/06/2022 0:12',35-40,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'15/06/2022 0:17',40-45,Sí,Sí,No,'A menudo','De nada',Sí,No,'A veces','No me interesa decirlo'
+'15/06/2022 0:18',45-50,Sí,'A veces',Sí,Sí,'De nada',Sí,'Tal vez','A veces',Sí
+'15/06/2022 0:19',25-30,Sí,Sí,Sí,Sí,Sí,Sí,Sí,Sí,Sí
+'15/06/2022 0:22',40-45,Sí,No,'Dos o más días a la semana',No,'De nada',Sí,No,'A veces',Sí
+'15/06/2022 0:23',40-45,Sí,Sí,No,'A menudo','De nada',Sí,'Tal vez','A veces',No
+'15/06/2022 0:24',25-30,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'15/06/2022 0:26',25-30,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'15/06/2022 0:27',25-30,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'15/06/2022 0:28',35-40,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'15/06/2022 0:29',35-40,Sí,No,'Dos o más días a la semana',No,'De nada',Sí,No,'A veces',Sí
+'15/06/2022 0:29',35-40,Sí,Sí,No,'A menudo','De nada',Sí,'Tal vez','A veces',No
+'15/06/2022 0:30',45-50,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'15/06/2022 0:31',35-40,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'15/06/2022 0:31',30-35,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'15/06/2022 0:33',45-50,Sí,No,No,'A menudo',Sí,Sí,No,'A veces',No
+'15/06/2022 0:34',45-50,Sí,Sí,No,'A menudo','De nada',Sí,'Tal vez','A veces',No
+'15/06/2022 0:35',30-35,Sí,No,'Dos o más días a la semana',No,No,Sí,'Tal vez','A veces',No
+'14/06/2022 20:02',35-40,Sí,Sí,'Dos o más días a la semana',Sí,Sí,Sí,No,Sí,Sí
+'14/06/2022 20:02',35-40,Sí,Sí,'Dos o más días a la semana',Sí,Sí,Sí,No,Sí,Sí
+'14/06/2022 20:06',30-35,No,No,Sí,Sí,Sí,Sí,No,No,Sí
+'14/06/2022 20:06',40-45,No,Sí,No,No,No,Sí,No,No,Sí
+'14/06/2022 22:05',35-40,No,Sí,'Dos o más días a la semana',Sí,Sí,Sí,Sí,No,No
+'14/06/2022 22:05',45-50,No,Sí,No,Sí,No,Sí,'Tal vez',Sí,Sí
+'14/06/2022 22:06',45-50,No,No,No,Sí,No,Sí,No,'A veces',No
+'14/06/2022 22:08',30-35,No,No,Sí,No,'De nada',Sí,No,Sí,No
+'14/06/2022 22:08',30-35,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,No,Sí
+'14/06/2022 22:09',30-35,No,No,Sí,'A menudo',No,Sí,No,No,Sí
+'14/06/2022 22:16',35-40,No,No,Sí,No,No,Sí,Sí,No,Sí
+'14/06/2022 22:17',40-45,No,'A veces',Sí,'A menudo','De nada',Sí,'Tal vez',Sí,'No me interesa decirlo'
+'14/06/2022 23:27',40-45,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'14/06/2022 23:29',40-45,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'14/06/2022 23:30',35-40,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'14/06/2022 23:35',40-45,No,No,'Dos o más días a la semana','A menudo',No,Sí,Sí,'A veces',Sí
+'14/06/2022 23:36',30-35,No,No,Sí,Sí,Sí,Sí,'Tal vez',No,Sí
+'14/06/2022 23:40',45-50,No,No,Sí,No,No,Sí,'Tal vez',No,'No me interesa decirlo'
+'14/06/2022 23:42',30-35,No,'A veces',No,'A menudo',No,Sí,'Tal vez','A veces','No me interesa decirlo'
+'14/06/2022 23:43',40-45,No,Sí,No,Sí,No,Sí,No,Sí,No
+'14/06/2022 23:44',45-50,No,No,Sí,Sí,No,Sí,No,Sí,No
+'14/06/2022 23:44',45-50,No,Sí,'Dos o más días a la semana',No,'De nada',Sí,No,Sí,Sí
+'14/06/2022 23:46',40-45,No,Sí,No,'A menudo','De nada',Sí,'Tal vez','A veces',Sí
+'14/06/2022 23:46',30-35,No,Sí,'Dos o más días a la semana','A menudo','De nada',Sí,'Tal vez','A veces',No
+'14/06/2022 23:48',35-40,No,No,No,No,'De nada',Sí,'Tal vez',No,Sí
+'14/06/2022 23:49',30-35,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,'No me interesa decirlo'
+'14/06/2022 23:50',30-35,No,Sí,'Dos o más días a la semana','A menudo','De nada',Sí,No,'A veces',Sí
+'14/06/2022 23:50',30-35,No,Sí,No,'A menudo',Sí,Sí,'Tal vez',Sí,No
+'15/06/2022 0:11',45-50,No,Sí,'Dos o más días a la semana',Sí,'De nada',Sí,'Tal vez','A veces',No
+'15/06/2022 0:12',35-40,No,Sí,No,Sí,No,Sí,No,'A veces','No me interesa decirlo'
+'15/06/2022 0:13',35-40,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,No,Sí
+'15/06/2022 0:16',35-40,No,Sí,No,Sí,No,Sí,Sí,No,Sí
+'15/06/2022 0:24',25-30,No,'A veces',No,No,'De nada',Sí,No,No,No
+'15/06/2022 0:26',30-35,No,No,Sí,'A menudo',No,Sí,No,Sí,Sí
+'15/06/2022 0:28',40-45,No,Sí,No,No,No,Sí,No,Sí,No
+'15/06/2022 0:30',40-45,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,No
+'15/06/2022 0:30',40-45,No,'A veces',No,No,No,Sí,Sí,Sí,No
+'15/06/2022 0:32',35-40,No,Sí,Sí,'A menudo','De nada',Sí,Sí,No,Sí
+'15/06/2022 0:33',40-45,No,'A veces','Dos o más días a la semana',No,'De nada',Sí,'Tal vez',No,Sí
+'15/06/2022 0:33',45-50,No,Sí,No,Sí,'De nada',Sí,'Tal vez',No,'No me interesa decirlo'
+'15/06/2022 1:03',45-50,No,No,Sí,'A menudo',No,Sí,'Tal vez',Sí,No
+'15/06/2022 1:08',30-35,No,'A veces','Dos o más días a la semana','A menudo',No,Sí,No,'A veces',Sí
+'15/06/2022 1:13',25-30,No,'A veces',Sí,No,No,Sí,'Tal vez','A veces',Sí
+'14/06/2022 22:18',40-45,No,No,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'14/06/2022 22:19',40-45,No,No,Sí,Sí,Sí,Sí,No,Sí,No
+'15/06/2022 22:24',45-50,No,No,'Dos o más días a la semana',Sí,'De nada',Sí,'Tal vez',Sí,Sí
+'15/06/2022 22:24',35-40,No,No,Sí,'A menudo','De nada',Sí,No,'A veces',No
+'15/06/2022 0:36',45-50,No,No,'Dos o más días a la semana',Sí,'De nada',Sí,'Tal vez','A veces','No me interesa decirlo'
+'15/06/2022 1:03',25-30,No,'A veces','Dos o más días a la semana','A menudo','De nada',Sí,No,No,'No me interesa decirlo'
+'15/06/2022 1:05',40-45,No,No,Sí,No,No,Sí,No,Sí,'No me interesa decirlo'
+'15/06/2022 1:08',25-30,No,No,'Dos o más días a la semana',Sí,'De nada',Sí,'Tal vez',Sí,No
+'14/06/2022 22:19',35-40,No,'A veces','Dos o más días a la semana','A menudo',No,Sí,'Tal vez','A veces',Sí
+'15/06/2022 22:18',35-40,No,No,Sí,Sí,No,Sí,No,Sí,No
+'15/06/2022 22:24',35-40,No,Sí,Sí,?,No,Sí,No,Sí,Sí
+'14/06/2022 20:06',30-35,No,No,Sí,Sí,Sí,Sí,No,No,Sí
+'14/06/2022 20:06',40-45,No,Sí,No,No,No,Sí,No,No,Sí
+'14/06/2022 22:05',35-40,No,Sí,'Dos o más días a la semana',Sí,Sí,Sí,Sí,No,No
+'14/06/2022 22:05',45-50,No,Sí,No,Sí,No,Sí,'Tal vez',Sí,Sí
+'14/06/2022 22:06',45-50,No,No,No,Sí,No,Sí,No,'A veces',No
+'14/06/2022 22:08',30-35,No,No,Sí,No,'De nada',Sí,No,Sí,No
+'14/06/2022 22:08',30-35,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,No,Sí
+'14/06/2022 22:09',30-35,No,No,Sí,'A menudo',No,Sí,No,No,Sí
+'14/06/2022 22:16',35-40,No,No,Sí,No,No,Sí,Sí,No,Sí
+'14/06/2022 22:17',40-45,No,'A veces',Sí,'A menudo','De nada',Sí,'Tal vez',Sí,'No me interesa decirlo'
+'14/06/2022 23:27',40-45,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'14/06/2022 23:29',40-45,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'14/06/2022 23:30',35-40,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'14/06/2022 23:33',35-40,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'14/06/2022 23:34',40-45,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'14/06/2022 23:35',40-45,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'14/06/2022 23:39',45-50,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'14/06/2022 23:40',30-35,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'14/06/2022 23:41',30-35,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'14/06/2022 23:43',40-45,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'14/06/2022 23:44',45-50,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'14/06/2022 23:46',40-45,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'14/06/2022 23:48',35-40,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'14/06/2022 23:49',30-35,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'14/06/2022 23:52',40-45,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'15/06/2022 0:02',30-35,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'15/06/2022 0:06',30-35,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'15/06/2022 0:07',35-40,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'15/06/2022 0:10',35-40,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'15/06/2022 0:12',35-40,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'15/06/2022 0:14',40-45,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'15/06/2022 0:14',40-45,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'15/06/2022 0:14',45-50,No,No,Sí,'A menudo',No,Sí,No,No,Sí
+'15/06/2022 0:19',25-30,No,No,Sí,No,No,Sí,Sí,No,Sí
+'15/06/2022 0:20',30-35,No,'A veces',Sí,'A menudo','De nada',Sí,'Tal vez',Sí,'No me interesa decirlo'
+'15/06/2022 0:25',40-45,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'15/06/2022 0:26',45-50,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'15/06/2022 0:27',40-45,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'15/06/2022 0:27',25-30,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'15/06/2022 0:28',25-30,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'15/06/2022 0:28',40-45,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'15/06/2022 0:30',40-45,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'15/06/2022 0:31',40-45,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'15/06/2022 0:31',35-40,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'15/06/2022 0:32',35-40,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'15/06/2022 0:33',40-45,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'15/06/2022 0:33',40-45,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'15/06/2022 0:36',25-30,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'15/06/2022 0:37',35-40,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'15/06/2022 0:39',25-30,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'15/06/2022 1:02',35-40,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'15/06/2022 1:03',45-50,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'15/06/2022 1:05',25-30,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'15/06/2022 1:08',30-35,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'15/06/2022 1:10',45-50,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'15/06/2022 1:10',45-50,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'14/06/2022 22:18',40-45,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'14/06/2022 22:05',35-40,No,Sí,'Dos o más días a la semana',Sí,Sí,Sí,Sí,No,No
+'14/06/2022 22:05',45-50,No,Sí,No,Sí,No,Sí,'Tal vez',Sí,Sí
+'14/06/2022 22:06',45-50,No,No,No,Sí,No,Sí,No,'A veces',No
+'14/06/2022 22:08',30-35,No,No,Sí,No,'De nada',Sí,No,Sí,No
+'14/06/2022 22:08',30-35,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,No,Sí
+'14/06/2022 22:09',30-35,No,No,Sí,'A menudo',No,Sí,No,No,Sí
+'14/06/2022 22:16',35-40,No,No,Sí,No,No,Sí,Sí,No,Sí
+'14/06/2022 22:17',40-45,No,'A veces',Sí,'A menudo','De nada',Sí,'Tal vez',Sí,'No me interesa decirlo'
+'14/06/2022 23:27',40-45,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'14/06/2022 23:29',40-45,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'14/06/2022 23:30',35-40,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'14/06/2022 23:35',40-45,No,No,'Dos o más días a la semana','A menudo',No,Sí,Sí,'A veces',Sí
+'14/06/2022 23:36',30-35,No,No,Sí,Sí,Sí,Sí,'Tal vez',No,Sí
+'14/06/2022 23:40',45-50,No,No,Sí,No,No,Sí,'Tal vez',No,'No me interesa decirlo'
+'14/06/2022 23:42',30-35,No,'A veces',No,'A menudo',No,Sí,'Tal vez','A veces','No me interesa decirlo'
+'14/06/2022 23:43',40-45,No,Sí,No,Sí,No,Sí,No,Sí,No
+'14/06/2022 23:44',45-50,No,No,Sí,Sí,No,Sí,No,Sí,No
+'14/06/2022 23:44',45-50,No,Sí,'Dos o más días a la semana',No,'De nada',Sí,No,Sí,Sí
+'14/06/2022 23:46',40-45,No,Sí,No,'A menudo','De nada',Sí,'Tal vez','A veces',Sí
+'14/06/2022 23:46',30-35,No,Sí,'Dos o más días a la semana','A menudo','De nada',Sí,'Tal vez','A veces',No
+'14/06/2022 23:48',35-40,No,No,No,No,'De nada',Sí,'Tal vez',No,Sí
+'14/06/2022 23:49',30-35,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,'No me interesa decirlo'
+'14/06/2022 23:50',30-35,No,Sí,'Dos o más días a la semana','A menudo','De nada',Sí,No,'A veces',Sí
+'14/06/2022 23:50',30-35,No,Sí,No,'A menudo',Sí,Sí,'Tal vez',Sí,No
+'15/06/2022 0:11',45-50,No,Sí,'Dos o más días a la semana',Sí,'De nada',Sí,'Tal vez','A veces',No
+'15/06/2022 0:12',35-40,No,Sí,No,Sí,No,Sí,No,'A veces','No me interesa decirlo'
+'15/06/2022 0:13',35-40,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,No,Sí
+'15/06/2022 0:16',35-40,No,Sí,No,Sí,No,Sí,Sí,No,Sí
+'15/06/2022 0:24',25-30,No,'A veces',No,No,'De nada',Sí,No,No,No
+'15/06/2022 0:26',30-35,No,No,Sí,'A menudo',No,Sí,No,Sí,Sí
+'15/06/2022 0:28',40-45,No,Sí,No,No,No,Sí,No,Sí,No
+'15/06/2022 0:30',40-45,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,No
+'15/06/2022 0:30',40-45,No,'A veces',No,No,No,Sí,Sí,Sí,No
+'15/06/2022 0:32',35-40,No,Sí,Sí,'A menudo','De nada',Sí,Sí,No,Sí
+'15/06/2022 0:33',40-45,No,'A veces','Dos o más días a la semana',No,'De nada',Sí,'Tal vez',No,Sí
+'15/06/2022 0:33',45-50,No,Sí,No,Sí,'De nada',Sí,'Tal vez',No,'No me interesa decirlo'
+'15/06/2022 1:03',45-50,No,No,Sí,'A menudo',No,Sí,'Tal vez',Sí,No
+'15/06/2022 1:08',30-35,No,'A veces','Dos o más días a la semana','A menudo',No,Sí,No,'A veces',Sí
+'15/06/2022 1:13',25-30,No,'A veces',Sí,No,No,Sí,'Tal vez','A veces',Sí
+'14/06/2022 22:18',40-45,No,No,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'14/06/2022 22:19',40-45,No,No,Sí,Sí,Sí,Sí,No,Sí,No
+'15/06/2022 22:24',45-50,No,No,'Dos o más días a la semana',Sí,'De nada',Sí,'Tal vez',Sí,Sí
+'15/06/2022 22:24',35-40,No,No,Sí,'A menudo','De nada',Sí,No,'A veces',No
+'15/06/2022 0:36',45-50,No,No,'Dos o más días a la semana',Sí,'De nada',Sí,'Tal vez','A veces','No me interesa decirlo'
+'15/06/2022 1:03',25-30,No,'A veces','Dos o más días a la semana','A menudo','De nada',Sí,No,No,'No me interesa decirlo'
+'15/06/2022 1:05',40-45,No,No,Sí,No,No,Sí,No,Sí,'No me interesa decirlo'
+'15/06/2022 1:08',25-30,No,No,'Dos o más días a la semana',Sí,'De nada',Sí,'Tal vez',Sí,No
+'14/06/2022 22:19',35-40,No,'A veces','Dos o más días a la semana','A menudo',No,Sí,'Tal vez','A veces',Sí
+'15/06/2022 22:18',35-40,No,No,Sí,Sí,No,Sí,No,Sí,No
+'15/06/2022 22:24',35-40,No,Sí,Sí,?,No,Sí,No,Sí,Sí
+'14/06/2022 20:06',30-35,No,No,Sí,Sí,Sí,Sí,No,No,Sí
+'14/06/2022 20:06',40-45,No,Sí,No,No,No,Sí,No,No,Sí
+'14/06/2022 22:05',35-40,No,Sí,'Dos o más días a la semana',Sí,Sí,Sí,Sí,No,No
+'14/06/2022 22:05',45-50,No,Sí,No,Sí,No,Sí,'Tal vez',Sí,Sí
+'14/06/2022 22:06',45-50,No,No,No,Sí,No,Sí,No,'A veces',No
+'14/06/2022 22:08',30-35,No,No,Sí,No,'De nada',Sí,No,Sí,No
+'14/06/2022 22:08',30-35,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,No,Sí
+'14/06/2022 22:09',30-35,No,No,Sí,'A menudo',No,Sí,No,No,Sí
+'14/06/2022 22:16',35-40,No,No,Sí,No,No,Sí,Sí,No,Sí
+'14/06/2022 22:17',40-45,No,'A veces',Sí,'A menudo','De nada',Sí,'Tal vez',Sí,'No me interesa decirlo'
+'14/06/2022 23:27',40-45,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'14/06/2022 23:29',40-45,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'14/06/2022 23:30',35-40,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'14/06/2022 23:33',35-40,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'14/06/2022 23:34',40-45,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'14/06/2022 23:35',40-45,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'14/06/2022 23:39',45-50,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'14/06/2022 23:40',30-35,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'14/06/2022 23:41',30-35,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'14/06/2022 23:43',40-45,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'14/06/2022 23:44',45-50,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'14/06/2022 23:46',40-45,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'14/06/2022 23:48',35-40,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'14/06/2022 23:49',30-35,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'14/06/2022 23:52',40-45,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'15/06/2022 0:02',30-35,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'15/06/2022 0:06',30-35,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'15/06/2022 0:07',35-40,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'15/06/2022 0:10',35-40,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'15/06/2022 0:12',35-40,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'15/06/2022 0:14',40-45,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'15/06/2022 0:14',40-45,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'15/06/2022 0:14',45-50,No,No,Sí,'A menudo',No,Sí,No,No,Sí
+'15/06/2022 0:19',25-30,No,No,Sí,No,No,Sí,Sí,No,Sí
+'15/06/2022 0:20',30-35,No,'A veces',Sí,'A menudo','De nada',Sí,'Tal vez',Sí,'No me interesa decirlo'
+'15/06/2022 0:25',40-45,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'15/06/2022 0:26',45-50,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'15/06/2022 0:27',40-45,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'15/06/2022 0:27',25-30,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'15/06/2022 0:28',25-30,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'15/06/2022 0:28',40-45,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'15/06/2022 0:30',40-45,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'15/06/2022 0:31',40-45,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'15/06/2022 0:31',35-40,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'15/06/2022 0:32',35-40,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'15/06/2022 0:33',40-45,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'15/06/2022 0:33',40-45,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'15/06/2022 0:36',25-30,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'15/06/2022 0:37',35-40,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'15/06/2022 0:39',25-30,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'15/06/2022 1:02',35-40,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'15/06/2022 1:03',45-50,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'15/06/2022 1:05',25-30,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'15/06/2022 1:08',30-35,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'15/06/2022 1:10',45-50,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'14/06/2022 22:16',35-40,No,No,Sí,No,No,Sí,Sí,No,Sí
+'14/06/2022 22:17',40-45,No,'A veces',Sí,'A menudo','De nada',Sí,'Tal vez',Sí,'No me interesa decirlo'
+'14/06/2022 23:27',40-45,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'14/06/2022 23:29',40-45,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'14/06/2022 23:30',35-40,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'14/06/2022 23:33',35-40,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'14/06/2022 23:34',40-45,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'14/06/2022 23:35',40-45,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'14/06/2022 23:39',45-50,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'14/06/2022 23:40',30-35,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'14/06/2022 23:41',30-35,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'14/06/2022 23:43',40-45,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'14/06/2022 23:44',45-50,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'14/06/2022 23:46',40-45,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'14/06/2022 23:48',35-40,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'14/06/2022 23:49',30-35,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'14/06/2022 23:52',40-45,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'15/06/2022 0:02',30-35,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'15/06/2022 0:06',30-35,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'15/06/2022 0:07',35-40,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'15/06/2022 0:10',35-40,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'15/06/2022 0:12',35-40,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'15/06/2022 0:14',40-45,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'15/06/2022 0:14',40-45,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'15/06/2022 0:14',45-50,No,No,Sí,'A menudo',No,Sí,No,No,Sí
+'15/06/2022 0:19',25-30,No,No,Sí,No,No,Sí,Sí,No,Sí
+'15/06/2022 0:20',30-35,No,'A veces',Sí,'A menudo','De nada',Sí,'Tal vez',Sí,'No me interesa decirlo'
+'15/06/2022 0:25',40-45,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'15/06/2022 0:26',45-50,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'15/06/2022 0:27',40-45,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'15/06/2022 0:27',25-30,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'15/06/2022 0:28',25-30,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'15/06/2022 0:28',40-45,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'15/06/2022 0:30',40-45,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'15/06/2022 0:31',40-45,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'15/06/2022 0:31',35-40,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'15/06/2022 0:32',35-40,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'15/06/2022 0:33',40-45,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'15/06/2022 0:33',40-45,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'15/06/2022 0:36',25-30,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'15/06/2022 1:03',45-50,No,No,Sí,'A menudo',No,Sí,'Tal vez',Sí,No
+'15/06/2022 1:08',30-35,No,'A veces','Dos o más días a la semana','A menudo',No,Sí,No,'A veces',Sí
+'15/06/2022 1:13',25-30,No,'A veces',Sí,No,No,Sí,'Tal vez','A veces',Sí
+'14/06/2022 22:18',40-45,No,No,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'14/06/2022 22:19',40-45,No,No,Sí,Sí,Sí,Sí,No,Sí,No
+'15/06/2022 22:24',45-50,No,No,'Dos o más días a la semana',Sí,'De nada',Sí,'Tal vez',Sí,Sí
+'15/06/2022 22:24',35-40,No,No,Sí,'A menudo','De nada',Sí,No,'A veces',No
+'15/06/2022 0:36',45-50,No,No,'Dos o más días a la semana',Sí,'De nada',Sí,'Tal vez','A veces','No me interesa decirlo'
+'15/06/2022 1:03',25-30,No,'A veces','Dos o más días a la semana','A menudo','De nada',Sí,No,No,'No me interesa decirlo'
+'15/06/2022 1:05',40-45,No,No,Sí,No,No,Sí,No,Sí,'No me interesa decirlo'
+'15/06/2022 1:08',25-30,No,No,'Dos o más días a la semana',Sí,'De nada',Sí,'Tal vez',Sí,No
+'14/06/2022 22:19',35-40,No,'A veces','Dos o más días a la semana','A menudo',No,Sí,'Tal vez','A veces',Sí
+'15/06/2022 22:18',35-40,No,No,Sí,Sí,No,Sí,No,Sí,No
+'15/06/2022 22:24',35-40,No,Sí,Sí,?,No,Sí,No,Sí,Sí
+'14/06/2022 20:06',30-35,No,No,Sí,Sí,Sí,Sí,No,No,Sí
+'14/06/2022 20:06',40-45,No,Sí,No,No,No,Sí,No,No,Sí
+'14/06/2022 22:05',35-40,No,Sí,'Dos o más días a la semana',Sí,Sí,Sí,Sí,No,No
+'14/06/2022 22:05',45-50,No,Sí,No,Sí,No,Sí,'Tal vez',Sí,Sí
+'14/06/2022 22:06',45-50,No,No,No,Sí,No,Sí,No,'A veces',No
+'14/06/2022 22:08',30-35,No,No,Sí,No,'De nada',Sí,No,Sí,No
+'14/06/2022 22:08',30-35,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,No,Sí
+'14/06/2022 22:09',30-35,No,No,Sí,'A menudo',No,Sí,No,No,Sí
+'14/06/2022 22:16',35-40,No,No,Sí,No,No,Sí,Sí,No,Sí
+'14/06/2022 22:17',40-45,No,'A veces',Sí,'A menudo','De nada',Sí,'Tal vez',Sí,'No me interesa decirlo'
+'14/06/2022 23:27',40-45,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'14/06/2022 23:29',40-45,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'14/06/2022 23:30',35-40,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'14/06/2022 23:33',35-40,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'14/06/2022 23:34',40-45,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'14/06/2022 23:35',40-45,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'14/06/2022 23:39',45-50,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'14/06/2022 23:40',30-35,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'14/06/2022 23:41',30-35,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'14/06/2022 23:43',40-45,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'14/06/2022 23:44',45-50,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'14/06/2022 23:46',40-45,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'14/06/2022 23:48',35-40,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'14/06/2022 23:49',30-35,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'14/06/2022 23:52',40-45,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'15/06/2022 0:02',30-35,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'15/06/2022 0:06',30-35,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'15/06/2022 0:07',35-40,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'15/06/2022 0:10',35-40,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'15/06/2022 0:12',35-40,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'15/06/2022 0:14',40-45,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'15/06/2022 0:14',40-45,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'15/06/2022 0:14',45-50,No,No,Sí,'A menudo',No,Sí,No,No,Sí
+'15/06/2022 0:19',25-30,No,No,Sí,No,No,Sí,Sí,No,Sí
+'15/06/2022 0:20',30-35,No,'A veces',Sí,'A menudo','De nada',Sí,'Tal vez',Sí,'No me interesa decirlo'
+'15/06/2022 0:25',40-45,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'15/06/2022 0:26',45-50,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'15/06/2022 0:27',40-45,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'15/06/2022 0:27',25-30,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'15/06/2022 0:28',25-30,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'15/06/2022 0:28',40-45,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'15/06/2022 0:30',40-45,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'15/06/2022 0:31',40-45,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'15/06/2022 0:31',35-40,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'15/06/2022 0:32',35-40,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'15/06/2022 0:33',40-45,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'15/06/2022 0:33',40-45,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'15/06/2022 0:36',25-30,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'15/06/2022 0:37',35-40,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'15/06/2022 0:39',25-30,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'15/06/2022 1:02',35-40,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'15/06/2022 1:03',45-50,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'15/06/2022 1:05',25-30,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'15/06/2022 1:08',30-35,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'15/06/2022 1:10',45-50,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'14/06/2022 22:16',35-40,No,No,Sí,No,No,Sí,Sí,No,Sí
+'14/06/2022 22:17',40-45,No,'A veces',Sí,'A menudo','De nada',Sí,'Tal vez',Sí,'No me interesa decirlo'
+'14/06/2022 23:27',40-45,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'14/06/2022 23:29',40-45,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'14/06/2022 23:30',35-40,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'14/06/2022 23:33',35-40,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'14/06/2022 23:34',40-45,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'14/06/2022 23:35',40-45,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'14/06/2022 23:39',45-50,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'14/06/2022 23:40',30-35,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'14/06/2022 23:41',30-35,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'14/06/2022 23:43',40-45,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'14/06/2022 23:44',45-50,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'14/06/2022 23:46',40-45,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'14/06/2022 23:48',35-40,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'14/06/2022 23:49',30-35,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'14/06/2022 23:52',40-45,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'15/06/2022 0:02',30-35,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'15/06/2022 0:06',30-35,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'15/06/2022 0:07',35-40,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'15/06/2022 0:10',35-40,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'15/06/2022 0:12',35-40,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'15/06/2022 0:14',40-45,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'15/06/2022 0:14',40-45,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'15/06/2022 0:14',45-50,No,No,Sí,'A menudo',No,Sí,No,No,Sí
+'15/06/2022 0:19',25-30,No,No,Sí,No,No,Sí,Sí,No,Sí
+'15/06/2022 0:20',30-35,No,'A veces',Sí,'A menudo','De nada',Sí,'Tal vez',Sí,'No me interesa decirlo'
+'15/06/2022 0:25',40-45,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'15/06/2022 0:26',45-50,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'15/06/2022 0:27',40-45,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'15/06/2022 0:27',25-30,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'15/06/2022 0:28',25-30,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'15/06/2022 0:28',40-45,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'15/06/2022 0:30',40-45,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'15/06/2022 0:31',40-45,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'15/06/2022 0:31',35-40,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'15/06/2022 0:32',35-40,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'15/06/2022 0:33',40-45,No,Sí,'Dos o más días a la semana',No,No,Sí,No,No,Sí
+'15/06/2022 0:33',40-45,No,Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'15/06/2022 0:36',25-30,No,'A veces',Sí,'A menudo',No,Sí,No,No,No
+'14/06/2022 20:11',30-35,'A veces',Sí,'Dos o más días a la semana',No,Sí,Sí,No,'A veces','No me interesa decirlo'
+'14/06/2022 22:07',40-45,'A veces','A veces','Dos o más días a la semana',No,Sí,Sí,Sí,No,Sí
+'14/06/2022 22:07',45-50,'A veces','A veces','Dos o más días a la semana',Sí,Sí,Sí,'Tal vez','A veces',No
+'14/06/2022 22:08',45-50,'A veces','A veces',Sí,Sí,No,Sí,No,No,No
+'14/06/2022 22:15',40-45,'A veces',Sí,No,Sí,No,Sí,No,'A veces',Sí
+'14/06/2022 22:15',45-50,'A veces',Sí,'Dos o más días a la semana',No,No,Sí,Sí,Sí,'No me interesa decirlo'
+'14/06/2022 22:16',30-35,'A veces','A veces',Sí,'A menudo','De nada',Sí,'Tal vez',Sí,'No me interesa decirlo'
+'14/06/2022 23:25',35-40,'A veces',Sí,'Dos o más días a la semana',Sí,No,Sí,'Tal vez','A veces','No me interesa decirlo'
+'14/06/2022 23:26',40-45,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'14/06/2022 23:30',30-35,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'14/06/2022 23:37',45-50,'A veces',Sí,Sí,No,No,Sí,Sí,'A veces',Sí
+'14/06/2022 23:38',45-50,'A veces',No,Sí,No,No,Sí,'Tal vez','A veces',No
+'14/06/2022 23:43',45-50,'A veces',Sí,'Dos o más días a la semana',Sí,'De nada',Sí,'Tal vez',Sí,'No me interesa decirlo'
+'15/06/2022 0:02',30-35,'A veces',Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'15/06/2022 0:11',30-35,'A veces',No,Sí,'A menudo',No,Sí,No,No,Sí
+'15/06/2022 0:14',40-45,'A veces',Sí,No,Sí,'De nada',Sí,'Tal vez',Sí,No
+'15/06/2022 0:14',45-50,'A veces',No,Sí,'A menudo',No,Sí,No,'A veces',Sí
+'15/06/2022 0:16',35-40,'A veces',Sí,No,Sí,No,Sí,'Tal vez',Sí,Sí
+'15/06/2022 0:19',25-30,'A veces','A veces','Dos o más días a la semana',No,'De nada',Sí,No,No,Sí
+'15/06/2022 0:21',25-30,'A veces',Sí,Sí,No,Sí,Sí,'Tal vez','A veces','No me interesa decirlo'
+'15/06/2022 0:27',30-35,'A veces',No,No,Sí,No,Sí,No,'A veces',No
+'15/06/2022 0:29',25-30,'A veces','A veces',Sí,'A menudo',Sí,Sí,'Tal vez','A veces',Sí
+'15/06/2022 0:32',35-40,'A veces',No,Sí,'A menudo','De nada',Sí,No,'A veces',No
+'15/06/2022 0:35',30-35,'A veces',No,Sí,No,No,Sí,'Tal vez','A veces','No me interesa decirlo'
+'15/06/2022 0:40',25-30,'A veces',No,'Dos o más días a la semana',No,'De nada',Sí,No,No,'No me interesa decirlo'
+'14/06/2022 22:19',35-40,'A veces','A veces',No,No,No,Sí,No,Sí,Sí
+'14/06/2022 22:19',35-40,'A veces','A veces','Dos o más días a la semana',Sí,Sí,Sí,No,Sí,No
+'15/06/2022 22:24',35-40,'A veces','A veces',No,Sí,Sí,Sí,Sí,'A veces',No
+'15/06/2022 22:24',30-35,'A veces','A veces',No,Sí,No,Sí,No,Sí,Sí
+'15/06/2022 22:24',40-45,'A veces','A veces',Sí,No,No,Sí,No,No,No
+'15/06/2022 0:35',25-30,'A veces',Sí,'Dos o más días a la semana',Sí,Sí,Sí,'Tal vez',Sí,No
+'14/06/2022 22:19',45-50,'A veces',Sí,Sí,No,No,Sí,No,Sí,No
+'14/06/2022 22:19',30-35,'A veces',No,No,Sí,Sí,Sí,No,No,No
+'15/06/2022 22:24',45-50,'A veces',No,Sí,Sí,Sí,Sí,No,'A veces','No me interesa decirlo'
+'15/06/2022 22:24',35-40,'A veces',Sí,'Dos o más días a la semana',No,'De nada',Sí,Sí,'A veces',No
+'14/06/2022 20:11',30-35,'A veces',Sí,'Dos o más días a la semana',No,Sí,Sí,No,'A veces','No me interesa decirlo'
+'14/06/2022 22:07',40-45,'A veces','A veces','Dos o más días a la semana',No,Sí,Sí,Sí,No,Sí
+'14/06/2022 22:07',45-50,'A veces','A veces','Dos o más días a la semana',Sí,Sí,Sí,'Tal vez','A veces',No
+'14/06/2022 22:08',45-50,'A veces','A veces',Sí,Sí,No,Sí,No,No,No
+'14/06/2022 22:15',40-45,'A veces',Sí,No,Sí,No,Sí,No,'A veces',Sí
+'14/06/2022 22:15',45-50,'A veces',Sí,'Dos o más días a la semana',No,No,Sí,Sí,Sí,'No me interesa decirlo'
+'14/06/2022 22:16',30-35,'A veces','A veces',Sí,'A menudo','De nada',Sí,'Tal vez',Sí,'No me interesa decirlo'
+'14/06/2022 23:25',35-40,'A veces',Sí,'Dos o más días a la semana',Sí,No,Sí,'Tal vez','A veces','No me interesa decirlo'
+'14/06/2022 23:26',40-45,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'14/06/2022 23:30',30-35,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'14/06/2022 23:32',35-40,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'14/06/2022 23:35',35-40,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'14/06/2022 23:37',45-50,'A veces',Sí,'Dos o más días a la semana',Sí,No,Sí,'Tal vez','A veces','No me interesa decirlo'
+'14/06/2022 23:38',45-50,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'14/06/2022 23:41',30-35,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'14/06/2022 23:43',40-45,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'14/06/2022 23:45',45-50,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'14/06/2022 23:46',30-35,'A veces',Sí,'Dos o más días a la semana',Sí,No,Sí,'Tal vez','A veces','No me interesa decirlo'
+'14/06/2022 23:48',35-40,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'14/06/2022 23:50',30-35,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'15/06/2022 0:02',30-35,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'15/06/2022 0:11',45-50,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'15/06/2022 0:13',35-40,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'15/06/2022 0:17',30-35,'A veces',Sí,No,Sí,No,Sí,No,'A veces',Sí
+'15/06/2022 0:17',45-50,'A veces',Sí,'Dos o más días a la semana',No,No,Sí,Sí,Sí,'No me interesa decirlo'
+'15/06/2022 0:19',25-30,'A veces','A veces',Sí,'A menudo','De nada',Sí,'Tal vez',Sí,'No me interesa decirlo'
+'15/06/2022 0:23',40-45,'A veces',Sí,'Dos o más días a la semana',Sí,No,Sí,'Tal vez','A veces','No me interesa decirlo'
+'15/06/2022 0:24',30-35,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'15/06/2022 0:26',30-35,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'15/06/2022 0:27',30-35,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'15/06/2022 0:28',40-45,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'15/06/2022 0:29',25-30,'A veces',Sí,'Dos o más días a la semana',Sí,No,Sí,'Tal vez','A veces','No me interesa decirlo'
+'15/06/2022 0:30',35-40,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'15/06/2022 0:31',30-35,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'15/06/2022 0:32',45-50,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'15/06/2022 0:33',45-50,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'15/06/2022 0:34',35-40,'A veces',Sí,'Dos o más días a la semana',Sí,No,Sí,'Tal vez','A veces','No me interesa decirlo'
+'15/06/2022 0:35',25-30,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'15/06/2022 0:38',30-35,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'15/06/2022 0:40',45-50,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'15/06/2022 1:09',35-40,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'14/06/2022 22:18',40-45,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'14/06/2022 20:11',30-35,'A veces',Sí,'Dos o más días a la semana',No,Sí,Sí,No,'A veces','No me interesa decirlo'
+'14/06/2022 22:07',40-45,'A veces','A veces','Dos o más días a la semana',No,Sí,Sí,Sí,No,Sí
+'14/06/2022 22:07',45-50,'A veces','A veces','Dos o más días a la semana',Sí,Sí,Sí,'Tal vez','A veces',No
+'14/06/2022 22:08',45-50,'A veces','A veces',Sí,Sí,No,Sí,No,No,No
+'14/06/2022 22:15',40-45,'A veces',Sí,No,Sí,No,Sí,No,'A veces',Sí
+'14/06/2022 22:15',45-50,'A veces',Sí,'Dos o más días a la semana',No,No,Sí,Sí,Sí,'No me interesa decirlo'
+'14/06/2022 22:16',30-35,'A veces','A veces',Sí,'A menudo','De nada',Sí,'Tal vez',Sí,'No me interesa decirlo'
+'14/06/2022 23:25',35-40,'A veces',Sí,'Dos o más días a la semana',Sí,No,Sí,'Tal vez','A veces','No me interesa decirlo'
+'14/06/2022 23:26',40-45,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'14/06/2022 23:30',30-35,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'14/06/2022 23:37',45-50,'A veces',Sí,Sí,No,No,Sí,Sí,'A veces',Sí
+'14/06/2022 23:38',45-50,'A veces',No,Sí,No,No,Sí,'Tal vez','A veces',No
+'14/06/2022 23:43',45-50,'A veces',Sí,'Dos o más días a la semana',Sí,'De nada',Sí,'Tal vez',Sí,'No me interesa decirlo'
+'15/06/2022 0:02',30-35,'A veces',Sí,'Dos o más días a la semana',Sí,No,Sí,No,Sí,Sí
+'15/06/2022 0:11',30-35,'A veces',No,Sí,'A menudo',No,Sí,No,No,Sí
+'15/06/2022 0:14',40-45,'A veces',Sí,No,Sí,'De nada',Sí,'Tal vez',Sí,No
+'15/06/2022 0:14',45-50,'A veces',No,Sí,'A menudo',No,Sí,No,'A veces',Sí
+'15/06/2022 0:16',35-40,'A veces',Sí,No,Sí,No,Sí,'Tal vez',Sí,Sí
+'15/06/2022 0:19',25-30,'A veces','A veces','Dos o más días a la semana',No,'De nada',Sí,No,No,Sí
+'15/06/2022 0:21',25-30,'A veces',Sí,Sí,No,Sí,Sí,'Tal vez','A veces','No me interesa decirlo'
+'15/06/2022 0:27',30-35,'A veces',No,No,Sí,No,Sí,No,'A veces',No
+'15/06/2022 0:29',25-30,'A veces','A veces',Sí,'A menudo',Sí,Sí,'Tal vez','A veces',Sí
+'15/06/2022 0:32',35-40,'A veces',No,Sí,'A menudo','De nada',Sí,No,'A veces',No
+'15/06/2022 0:35',30-35,'A veces',No,Sí,No,No,Sí,'Tal vez','A veces','No me interesa decirlo'
+'15/06/2022 0:40',25-30,'A veces',No,'Dos o más días a la semana',No,'De nada',Sí,No,No,'No me interesa decirlo'
+'14/06/2022 22:19',35-40,'A veces','A veces',No,No,No,Sí,No,Sí,Sí
+'14/06/2022 22:19',35-40,'A veces','A veces','Dos o más días a la semana',Sí,Sí,Sí,No,Sí,No
+'15/06/2022 22:24',35-40,'A veces','A veces',No,Sí,Sí,Sí,Sí,'A veces',No
+'15/06/2022 22:24',30-35,'A veces','A veces',No,Sí,No,Sí,No,Sí,Sí
+'15/06/2022 22:24',40-45,'A veces','A veces',Sí,No,No,Sí,No,No,No
+'15/06/2022 0:35',25-30,'A veces',Sí,'Dos o más días a la semana',Sí,Sí,Sí,'Tal vez',Sí,No
+'14/06/2022 22:19',45-50,'A veces',Sí,Sí,No,No,Sí,No,Sí,No
+'14/06/2022 22:19',30-35,'A veces',No,No,Sí,Sí,Sí,No,No,No
+'15/06/2022 22:24',45-50,'A veces',No,Sí,Sí,Sí,Sí,No,'A veces','No me interesa decirlo'
+'15/06/2022 22:24',35-40,'A veces',Sí,'Dos o más días a la semana',No,'De nada',Sí,Sí,'A veces',No
+'14/06/2022 20:11',30-35,'A veces',Sí,'Dos o más días a la semana',No,Sí,Sí,No,'A veces','No me interesa decirlo'
+'14/06/2022 22:07',40-45,'A veces','A veces','Dos o más días a la semana',No,Sí,Sí,Sí,No,Sí
+'14/06/2022 22:07',45-50,'A veces','A veces','Dos o más días a la semana',Sí,Sí,Sí,'Tal vez','A veces',No
+'14/06/2022 22:08',45-50,'A veces','A veces',Sí,Sí,No,Sí,No,No,No
+'14/06/2022 22:15',40-45,'A veces',Sí,No,Sí,No,Sí,No,'A veces',Sí
+'14/06/2022 22:15',45-50,'A veces',Sí,'Dos o más días a la semana',No,No,Sí,Sí,Sí,'No me interesa decirlo'
+'14/06/2022 22:16',30-35,'A veces','A veces',Sí,'A menudo','De nada',Sí,'Tal vez',Sí,'No me interesa decirlo'
+'14/06/2022 23:25',35-40,'A veces',Sí,'Dos o más días a la semana',Sí,No,Sí,'Tal vez','A veces','No me interesa decirlo'
+'14/06/2022 23:26',40-45,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'14/06/2022 23:30',30-35,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'14/06/2022 23:32',35-40,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'14/06/2022 23:35',35-40,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'14/06/2022 23:37',45-50,'A veces',Sí,'Dos o más días a la semana',Sí,No,Sí,'Tal vez','A veces','No me interesa decirlo'
+'14/06/2022 23:38',45-50,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'14/06/2022 23:41',30-35,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'14/06/2022 23:43',40-45,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'14/06/2022 23:45',45-50,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'14/06/2022 23:46',30-35,'A veces',Sí,'Dos o más días a la semana',Sí,No,Sí,'Tal vez','A veces','No me interesa decirlo'
+'14/06/2022 23:48',35-40,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'14/06/2022 23:50',30-35,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'15/06/2022 0:02',30-35,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'15/06/2022 0:11',45-50,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'15/06/2022 0:13',35-40,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'15/06/2022 0:17',30-35,'A veces',Sí,No,Sí,No,Sí,No,'A veces',Sí
+'15/06/2022 0:17',45-50,'A veces',Sí,'Dos o más días a la semana',No,No,Sí,Sí,Sí,'No me interesa decirlo'
+'15/06/2022 0:19',25-30,'A veces','A veces',Sí,'A menudo','De nada',Sí,'Tal vez',Sí,'No me interesa decirlo'
+'15/06/2022 0:23',40-45,'A veces',Sí,'Dos o más días a la semana',Sí,No,Sí,'Tal vez','A veces','No me interesa decirlo'
+'15/06/2022 0:24',30-35,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'15/06/2022 0:26',30-35,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'15/06/2022 0:27',30-35,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'15/06/2022 0:28',40-45,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'15/06/2022 0:29',25-30,'A veces',Sí,'Dos o más días a la semana',Sí,No,Sí,'Tal vez','A veces','No me interesa decirlo'
+'15/06/2022 0:30',35-40,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'15/06/2022 0:31',30-35,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'15/06/2022 0:32',45-50,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'15/06/2022 0:33',45-50,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'15/06/2022 0:34',35-40,'A veces',Sí,'Dos o más días a la semana',Sí,No,Sí,'Tal vez','A veces','No me interesa decirlo'
+'15/06/2022 0:35',25-30,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'15/06/2022 0:38',30-35,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'15/06/2022 0:40',45-50,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'15/06/2022 1:09',35-40,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'14/06/2022 22:18',40-45,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'14/06/2022 22:16',30-35,'A veces','A veces',Sí,'A menudo','De nada',Sí,'Tal vez',Sí,'No me interesa decirlo'
+'14/06/2022 23:25',35-40,'A veces',Sí,'Dos o más días a la semana',Sí,No,Sí,'Tal vez','A veces','No me interesa decirlo'
+'14/06/2022 23:26',40-45,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'14/06/2022 23:30',30-35,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'14/06/2022 23:32',35-40,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'14/06/2022 23:35',35-40,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'14/06/2022 23:37',45-50,'A veces',Sí,'Dos o más días a la semana',Sí,No,Sí,'Tal vez','A veces','No me interesa decirlo'
+'14/06/2022 23:38',45-50,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'14/06/2022 23:41',30-35,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'14/06/2022 23:43',40-45,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'14/06/2022 23:45',45-50,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'14/06/2022 23:46',30-35,'A veces',Sí,'Dos o más días a la semana',Sí,No,Sí,'Tal vez','A veces','No me interesa decirlo'
+'14/06/2022 23:48',35-40,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'14/06/2022 23:50',30-35,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'15/06/2022 0:02',30-35,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'15/06/2022 0:11',45-50,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'15/06/2022 0:13',35-40,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'15/06/2022 0:17',30-35,'A veces',Sí,No,Sí,No,Sí,No,'A veces',Sí
+'15/06/2022 0:17',45-50,'A veces',Sí,'Dos o más días a la semana',No,No,Sí,Sí,Sí,'No me interesa decirlo'
+'15/06/2022 0:19',25-30,'A veces','A veces',Sí,'A menudo','De nada',Sí,'Tal vez',Sí,'No me interesa decirlo'
+'15/06/2022 0:23',40-45,'A veces',Sí,'Dos o más días a la semana',Sí,No,Sí,'Tal vez','A veces','No me interesa decirlo'
+'15/06/2022 0:24',30-35,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'15/06/2022 0:26',30-35,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'15/06/2022 0:27',30-35,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'15/06/2022 0:28',40-45,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'15/06/2022 0:29',25-30,'A veces',Sí,'Dos o más días a la semana',Sí,No,Sí,'Tal vez','A veces','No me interesa decirlo'
+'15/06/2022 0:30',35-40,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'15/06/2022 0:31',30-35,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'15/06/2022 0:32',45-50,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'15/06/2022 0:33',45-50,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'15/06/2022 0:34',35-40,'A veces',Sí,'Dos o más días a la semana',Sí,No,Sí,'Tal vez','A veces','No me interesa decirlo'
+'15/06/2022 0:35',25-30,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'14/06/2022 22:19',35-40,'A veces','A veces',No,No,No,Sí,No,Sí,Sí
+'14/06/2022 22:19',35-40,'A veces','A veces','Dos o más días a la semana',Sí,Sí,Sí,No,Sí,No
+'15/06/2022 22:24',35-40,'A veces','A veces',No,Sí,Sí,Sí,Sí,'A veces',No
+'15/06/2022 22:24',30-35,'A veces','A veces',No,Sí,No,Sí,No,Sí,Sí
+'15/06/2022 22:24',40-45,'A veces','A veces',Sí,No,No,Sí,No,No,No
+'15/06/2022 0:35',25-30,'A veces',Sí,'Dos o más días a la semana',Sí,Sí,Sí,'Tal vez',Sí,No
+'14/06/2022 22:19',45-50,'A veces',Sí,Sí,No,No,Sí,No,Sí,No
+'14/06/2022 22:19',30-35,'A veces',No,No,Sí,Sí,Sí,No,No,No
+'15/06/2022 22:24',45-50,'A veces',No,Sí,Sí,Sí,Sí,No,'A veces','No me interesa decirlo'
+'15/06/2022 22:24',35-40,'A veces',Sí,'Dos o más días a la semana',No,'De nada',Sí,Sí,'A veces',No
+'14/06/2022 20:11',30-35,'A veces',Sí,'Dos o más días a la semana',No,Sí,Sí,No,'A veces','No me interesa decirlo'
+'14/06/2022 22:07',40-45,'A veces','A veces','Dos o más días a la semana',No,Sí,Sí,Sí,No,Sí
+'14/06/2022 22:07',45-50,'A veces','A veces','Dos o más días a la semana',Sí,Sí,Sí,'Tal vez','A veces',No
+'14/06/2022 22:08',45-50,'A veces','A veces',Sí,Sí,No,Sí,No,No,No
+'14/06/2022 22:15',40-45,'A veces',Sí,No,Sí,No,Sí,No,'A veces',Sí
+'14/06/2022 22:15',45-50,'A veces',Sí,'Dos o más días a la semana',No,No,Sí,Sí,Sí,'No me interesa decirlo'
+'14/06/2022 22:16',30-35,'A veces','A veces',Sí,'A menudo','De nada',Sí,'Tal vez',Sí,'No me interesa decirlo'
+'14/06/2022 23:25',35-40,'A veces',Sí,'Dos o más días a la semana',Sí,No,Sí,'Tal vez','A veces','No me interesa decirlo'
+'14/06/2022 23:26',40-45,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'14/06/2022 23:30',30-35,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'14/06/2022 23:32',35-40,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'14/06/2022 23:35',35-40,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'14/06/2022 23:37',45-50,'A veces',Sí,'Dos o más días a la semana',Sí,No,Sí,'Tal vez','A veces','No me interesa decirlo'
+'14/06/2022 23:38',45-50,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'14/06/2022 23:41',30-35,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'14/06/2022 23:43',40-45,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'14/06/2022 23:45',45-50,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'14/06/2022 23:46',30-35,'A veces',Sí,'Dos o más días a la semana',Sí,No,Sí,'Tal vez','A veces','No me interesa decirlo'
+'14/06/2022 23:48',35-40,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'14/06/2022 23:50',30-35,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'15/06/2022 0:02',30-35,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'15/06/2022 0:11',45-50,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'15/06/2022 0:13',35-40,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'15/06/2022 0:17',30-35,'A veces',Sí,No,Sí,No,Sí,No,'A veces',Sí
+'15/06/2022 0:17',45-50,'A veces',Sí,'Dos o más días a la semana',No,No,Sí,Sí,Sí,'No me interesa decirlo'
+'15/06/2022 0:19',25-30,'A veces','A veces',Sí,'A menudo','De nada',Sí,'Tal vez',Sí,'No me interesa decirlo'
+'15/06/2022 0:23',40-45,'A veces',Sí,'Dos o más días a la semana',Sí,No,Sí,'Tal vez','A veces','No me interesa decirlo'
+'15/06/2022 0:24',30-35,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'15/06/2022 0:26',30-35,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'15/06/2022 0:27',30-35,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'15/06/2022 0:28',40-45,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'15/06/2022 0:29',25-30,'A veces',Sí,'Dos o más días a la semana',Sí,No,Sí,'Tal vez','A veces','No me interesa decirlo'
+'15/06/2022 0:30',35-40,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'15/06/2022 0:31',30-35,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'15/06/2022 0:32',45-50,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'15/06/2022 0:33',45-50,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'15/06/2022 0:34',35-40,'A veces',Sí,'Dos o más días a la semana',Sí,No,Sí,'Tal vez','A veces','No me interesa decirlo'
+'15/06/2022 0:35',25-30,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'15/06/2022 0:38',30-35,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'15/06/2022 0:40',45-50,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'15/06/2022 1:09',35-40,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'14/06/2022 22:18',40-45,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'14/06/2022 22:16',30-35,'A veces','A veces',Sí,'A menudo','De nada',Sí,'Tal vez',Sí,'No me interesa decirlo'
+'14/06/2022 23:25',35-40,'A veces',Sí,'Dos o más días a la semana',Sí,No,Sí,'Tal vez','A veces','No me interesa decirlo'
+'14/06/2022 23:26',40-45,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'14/06/2022 23:30',30-35,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'14/06/2022 23:32',35-40,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'14/06/2022 23:35',35-40,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'14/06/2022 23:37',45-50,'A veces',Sí,'Dos o más días a la semana',Sí,No,Sí,'Tal vez','A veces','No me interesa decirlo'
+'14/06/2022 23:38',45-50,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'14/06/2022 23:41',30-35,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'14/06/2022 23:43',40-45,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'14/06/2022 23:45',45-50,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'14/06/2022 23:46',30-35,'A veces',Sí,'Dos o más días a la semana',Sí,No,Sí,'Tal vez','A veces','No me interesa decirlo'
+'14/06/2022 23:48',35-40,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'14/06/2022 23:50',30-35,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'15/06/2022 0:02',30-35,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'15/06/2022 0:11',45-50,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'15/06/2022 0:13',35-40,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'15/06/2022 0:17',30-35,'A veces',Sí,No,Sí,No,Sí,No,'A veces',Sí
+'15/06/2022 0:17',45-50,'A veces',Sí,'Dos o más días a la semana',No,No,Sí,Sí,Sí,'No me interesa decirlo'
+'15/06/2022 0:19',25-30,'A veces','A veces',Sí,'A menudo','De nada',Sí,'Tal vez',Sí,'No me interesa decirlo'
+'15/06/2022 0:23',40-45,'A veces',Sí,'Dos o más días a la semana',Sí,No,Sí,'Tal vez','A veces','No me interesa decirlo'
+'15/06/2022 0:24',30-35,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'15/06/2022 0:26',30-35,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'15/06/2022 0:27',30-35,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'15/06/2022 0:28',40-45,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'15/06/2022 0:29',25-30,'A veces',Sí,'Dos o más días a la semana',Sí,No,Sí,'Tal vez','A veces','No me interesa decirlo'
+'15/06/2022 0:30',35-40,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'15/06/2022 0:31',30-35,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'15/06/2022 0:32',45-50,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'15/06/2022 0:33',45-50,'A veces',Sí,No,'A menudo','De nada',Sí,No,'A veces',No
+'15/06/2022 0:34',35-40,'A veces',Sí,'Dos o más días a la semana',Sí,No,Sí,'Tal vez','A veces','No me interesa decirlo'
+'15/06/2022 0:35',25-30,'A veces',No,No,'A menudo',No,Sí,'Tal vez',Sí,No
+'14/06/2022 20:02',35-40,Sí,Sí,'Dos o más días a la semana',Sí,Sí,Sí,No,Sí,Sí
+'14/06/2022 20:02',35-40,Sí,Sí,'Dos o más días a la semana',Sí,Sí,Sí,No,Sí,Sí
+'14/06/2022 20:03',40-45,Sí,No,No,Sí,Sí,No,Sí,Sí,No
+'14/06/2022 20:07',35-40,Sí,Sí,No,Sí,No,No,No,No,Sí
+'14/06/2022 22:04',30-35,Sí,'A veces','Dos o más días a la semana',No,Sí,No,Sí,No,No
+'14/06/2022 22:06',40-45,Sí,Sí,'Dos o más días a la semana',No,Sí,No,No,'A veces','No me interesa decirlo'
+'14/06/2022 22:09',40-45,Sí,'A veces','Dos o más días a la semana','A menudo',Sí,No,'Tal vez','A veces','No me interesa decirlo'
+'14/06/2022 22:10',40-45,Sí,'A veces','Dos o más días a la semana',Sí,No,No,Sí,Sí,'No me interesa decirlo'
+'14/06/2022 22:10',35-40,Sí,'A veces',Sí,Sí,Sí,No,'Tal vez','A veces',Sí
+'14/06/2022 22:17',40-45,Sí,No,'Dos o más días a la semana',Sí,No,No,'Tal vez','A veces','No me interesa decirlo'
+'14/06/2022 22:18',35-40,Sí,Sí,Sí,'A menudo',Sí,No,'Tal vez',No,No
+'14/06/2022 22:18',40-45,Sí,'A veces','Dos o más días a la semana',No,Sí,No,'Tal vez','A veces','No me interesa decirlo'
+'14/06/2022 23:31',35-40,Sí,Sí,'Dos o más días a la semana',Sí,Sí,No,Sí,No,Sí
+'14/06/2022 23:34',40-45,Sí,No,Sí,No,No,No,Sí,No,No
+'14/06/2022 23:37',35-40,Sí,Sí,Sí,No,'De nada',No,Sí,No,Sí
+'14/06/2022 23:39',45-50,Sí,No,No,Sí,No,No,Sí,No,Sí
+'14/06/2022 23:47',45-50,Sí,No,Sí,No,Sí,No,Sí,No,Sí
+'14/06/2022 23:48',35-40,Sí,No,Sí,No,Sí,No,Sí,No,Sí
+'15/06/2022 0:06',30-35,Sí,'A veces',Sí,No,Sí,No,Sí,Sí,No
+'15/06/2022 0:07',35-40,Sí,No,Sí,No,'De nada',No,No,No,No
+'15/06/2022 0:07',30-35,Sí,No,Sí,No,'De nada',No,Sí,No,Sí
+'15/06/2022 0:14',40-45,Sí,No,Sí,No,Sí,No,Sí,'A veces',No
+'15/06/2022 0:17',40-45,Sí,'A veces',No,Sí,No,No,Sí,No,Sí
+'15/06/2022 0:17',45-50,Sí,No,'Dos o más días a la semana',Sí,No,No,Sí,No,Sí
+'15/06/2022 0:20',25-30,Sí,No,Sí,No,'De nada',No,No,Sí,Sí
+'15/06/2022 0:22',40-45,Sí,Sí,No,'A menudo','De nada',No,Sí,'A veces',Sí
+'15/06/2022 0:23',40-45,Sí,'A veces',No,No,Sí,No,Sí,Sí,No
+'15/06/2022 0:25',40-45,Sí,No,'Dos o más días a la semana',Sí,'De nada',No,'Tal vez',Sí,'No me interesa decirlo'
+'15/06/2022 0:25',40-45,Sí,No,Sí,Sí,Sí,No,Sí,'A veces','No me interesa decirlo'
+'15/06/2022 0:25',35-40,Sí,No,Sí,Sí,No,No,Sí,Sí,'No me interesa decirlo'
+'15/06/2022 0:26',25-30,Sí,No,No,No,'De nada',No,Sí,'A veces',Sí
+'15/06/2022 0:27',40-45,Sí,'A veces',No,Sí,No,No,No,Sí,No
+'15/06/2022 0:27',25-30,Sí,'A veces',No,Sí,Sí,No,No,Sí,Sí
+'15/06/2022 0:28',35-40,Sí,No,Sí,'A menudo',Sí,No,'Tal vez','A veces',Sí
+'15/06/2022 0:29',40-45,Sí,No,Sí,Sí,No,No,'Tal vez',No,'No me interesa decirlo'
+'15/06/2022 0:30',35-40,Sí,No,'Dos o más días a la semana',Sí,No,No,'Tal vez',Sí,No
+'15/06/2022 0:31',30-35,Sí,No,'Dos o más días a la semana',No,'De nada',No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:32',45-50,Sí,No,'Dos o más días a la semana',Sí,'De nada',No,Sí,'A veces',Sí
+'15/06/2022 0:37',25-30,Sí,No,No,Sí,'De nada',No,Sí,Sí,No
+'15/06/2022 1:02',40-45,Sí,No,Sí,Sí,'De nada',No,Sí,No,'No me interesa decirlo'
+'15/06/2022 1:08',40-45,Sí,No,No,Sí,'De nada',No,Sí,No,No
+'15/06/2022 1:09',35-40,Sí,'A veces',Sí,Sí,No,No,Sí,No,Sí
+'14/06/2022 22:19',30-35,Sí,Sí,'Dos o más días a la semana',Sí,No,No,Sí,Sí,No
+'14/06/2022 22:20',30-35,Sí,Sí,Sí,No,Sí,No,No,Sí,Sí
+'15/06/2022 22:24',35-40,Sí,Sí,Sí,Sí,'De nada',No,Sí,'A veces',Sí
+'15/06/2022 0:37',30-35,Sí,No,'Dos o más días a la semana',Sí,Sí,No,Sí,Sí,Sí
+'15/06/2022 0:40',25-30,Sí,No,Sí,Sí,No,No,'Tal vez','A veces',No
+'15/06/2022 1:02',40-45,Sí,Sí,Sí,Sí,'De nada',No,'Tal vez',No,'No me interesa decirlo'
+'15/06/2022 1:08',30-35,Sí,'A veces',No,No,'De nada',No,Sí,No,'No me interesa decirlo'
+'15/06/2022 1:09',45-50,Sí,No,No,No,Sí,No,Sí,No,No
+'14/06/2022 22:19',35-40,Sí,'A veces',Sí,'A menudo',No,No,Sí,Sí,No
+'14/06/2022 20:03',40-45,Sí,No,No,Sí,Sí,No,Sí,Sí,No
+'14/06/2022 20:07',35-40,Sí,Sí,No,Sí,No,No,No,No,Sí
+'14/06/2022 22:04',30-35,Sí,'A veces','Dos o más días a la semana',No,Sí,No,Sí,No,No
+'14/06/2022 22:06',40-45,Sí,Sí,'Dos o más días a la semana',No,Sí,No,No,'A veces','No me interesa decirlo'
+'14/06/2022 22:09',40-45,Sí,'A veces','Dos o más días a la semana','A menudo',Sí,No,'Tal vez','A veces','No me interesa decirlo'
+'14/06/2022 22:10',40-45,Sí,'A veces','Dos o más días a la semana',Sí,No,No,Sí,Sí,'No me interesa decirlo'
+'14/06/2022 22:10',35-40,Sí,'A veces',Sí,Sí,Sí,No,'Tal vez','A veces',Sí
+'14/06/2022 22:17',40-45,Sí,No,'Dos o más días a la semana',Sí,No,No,'Tal vez','A veces','No me interesa decirlo'
+'14/06/2022 22:18',35-40,Sí,Sí,Sí,'A menudo',Sí,No,'Tal vez',No,No
+'14/06/2022 22:18',40-45,Sí,'A veces','Dos o más días a la semana',No,Sí,No,'Tal vez','A veces','No me interesa decirlo'
+'14/06/2022 23:36',30-35,Sí,Sí,Sí,'A menudo',Sí,No,'Tal vez',No,No
+'14/06/2022 23:36',30-35,Sí,'A veces','Dos o más días a la semana',No,Sí,No,'Tal vez','A veces','No me interesa decirlo'
+'15/06/2022 0:16',35-40,Sí,'A veces','Dos o más días a la semana',Sí,No,No,Sí,Sí,'No me interesa decirlo'
+'15/06/2022 0:16',35-40,Sí,'A veces',Sí,Sí,Sí,No,'Tal vez','A veces',Sí
+'15/06/2022 0:21',30-35,Sí,No,'Dos o más días a la semana',Sí,No,No,'Tal vez','A veces','No me interesa decirlo'
+'15/06/2022 0:21',25-30,Sí,Sí,Sí,'A menudo',Sí,No,'Tal vez',No,No
+'15/06/2022 0:22',30-35,Sí,'A veces','Dos o más días a la semana',No,Sí,No,'Tal vez','A veces','No me interesa decirlo'
+'15/06/2022 0:29',40-45,Sí,Sí,Sí,'A menudo',Sí,No,'Tal vez',No,No
+'15/06/2022 0:29',30-35,Sí,'A veces','Dos o más días a la semana',No,Sí,No,'Tal vez','A veces','No me interesa decirlo'
+'14/06/2022 22:04',30-35,Sí,'A veces','Dos o más días a la semana',No,Sí,No,Sí,No,No
+'14/06/2022 22:06',40-45,Sí,Sí,'Dos o más días a la semana',No,Sí,No,No,'A veces','No me interesa decirlo'
+'14/06/2022 22:09',40-45,Sí,'A veces','Dos o más días a la semana','A menudo',Sí,No,'Tal vez','A veces','No me interesa decirlo'
+'14/06/2022 22:10',40-45,Sí,'A veces','Dos o más días a la semana',Sí,No,No,Sí,Sí,'No me interesa decirlo'
+'14/06/2022 22:10',35-40,Sí,'A veces',Sí,Sí,Sí,No,'Tal vez','A veces',Sí
+'14/06/2022 22:17',40-45,Sí,No,'Dos o más días a la semana',Sí,No,No,'Tal vez','A veces','No me interesa decirlo'
+'14/06/2022 22:18',35-40,Sí,Sí,Sí,'A menudo',Sí,No,'Tal vez',No,No
+'14/06/2022 22:18',40-45,Sí,'A veces','Dos o más días a la semana',No,Sí,No,'Tal vez','A veces','No me interesa decirlo'
+'14/06/2022 23:31',35-40,Sí,Sí,'Dos o más días a la semana',Sí,Sí,No,Sí,No,Sí
+'14/06/2022 23:34',40-45,Sí,No,Sí,No,No,No,Sí,No,No
+'14/06/2022 23:37',35-40,Sí,Sí,Sí,No,'De nada',No,Sí,No,Sí
+'14/06/2022 23:39',45-50,Sí,No,No,Sí,No,No,Sí,No,Sí
+'14/06/2022 23:47',45-50,Sí,No,Sí,No,Sí,No,Sí,No,Sí
+'14/06/2022 23:48',35-40,Sí,No,Sí,No,Sí,No,Sí,No,Sí
+'15/06/2022 0:06',30-35,Sí,'A veces',Sí,No,Sí,No,Sí,Sí,No
+'15/06/2022 0:07',35-40,Sí,No,Sí,No,'De nada',No,No,No,No
+'15/06/2022 0:07',30-35,Sí,No,Sí,No,'De nada',No,Sí,No,Sí
+'15/06/2022 0:14',40-45,Sí,No,Sí,No,Sí,No,Sí,'A veces',No
+'15/06/2022 0:17',40-45,Sí,'A veces',No,Sí,No,No,Sí,No,Sí
+'15/06/2022 0:17',45-50,Sí,No,'Dos o más días a la semana',Sí,No,No,Sí,No,Sí
+'15/06/2022 0:20',25-30,Sí,No,Sí,No,'De nada',No,No,Sí,Sí
+'15/06/2022 0:22',40-45,Sí,Sí,No,'A menudo','De nada',No,Sí,'A veces',Sí
+'15/06/2022 0:23',40-45,Sí,'A veces',No,No,Sí,No,Sí,Sí,No
+'15/06/2022 0:25',40-45,Sí,No,'Dos o más días a la semana',Sí,'De nada',No,'Tal vez',Sí,'No me interesa decirlo'
+'15/06/2022 0:25',40-45,Sí,No,Sí,Sí,Sí,No,Sí,'A veces','No me interesa decirlo'
+'15/06/2022 0:25',35-40,Sí,No,Sí,Sí,No,No,Sí,Sí,'No me interesa decirlo'
+'15/06/2022 0:26',25-30,Sí,No,No,No,'De nada',No,Sí,'A veces',Sí
+'15/06/2022 0:27',40-45,Sí,'A veces',No,Sí,No,No,No,Sí,No
+'15/06/2022 0:27',25-30,Sí,'A veces',No,Sí,Sí,No,No,Sí,Sí
+'15/06/2022 0:28',35-40,Sí,No,Sí,'A menudo',Sí,No,'Tal vez','A veces',Sí
+'15/06/2022 0:29',40-45,Sí,No,Sí,Sí,No,No,'Tal vez',No,'No me interesa decirlo'
+'15/06/2022 0:30',35-40,Sí,No,'Dos o más días a la semana',Sí,No,No,'Tal vez',Sí,No
+'15/06/2022 0:31',30-35,Sí,No,'Dos o más días a la semana',No,'De nada',No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:32',45-50,Sí,No,'Dos o más días a la semana',Sí,'De nada',No,Sí,'A veces',Sí
+'15/06/2022 0:37',25-30,Sí,No,No,Sí,'De nada',No,Sí,Sí,No
+'15/06/2022 1:02',40-45,Sí,No,Sí,Sí,'De nada',No,Sí,No,'No me interesa decirlo'
+'15/06/2022 1:08',40-45,Sí,No,No,Sí,'De nada',No,Sí,No,No
+'15/06/2022 1:09',35-40,Sí,'A veces',Sí,Sí,No,No,Sí,No,Sí
+'14/06/2022 22:19',30-35,Sí,Sí,'Dos o más días a la semana',Sí,No,No,Sí,Sí,No
+'14/06/2022 22:20',30-35,Sí,Sí,Sí,No,Sí,No,No,Sí,Sí
+'15/06/2022 22:24',35-40,Sí,Sí,Sí,Sí,'De nada',No,Sí,'A veces',Sí
+'15/06/2022 0:37',30-35,Sí,No,'Dos o más días a la semana',Sí,Sí,No,Sí,Sí,Sí
+'15/06/2022 0:40',25-30,Sí,No,Sí,Sí,No,No,'Tal vez','A veces',No
+'15/06/2022 1:02',40-45,Sí,Sí,Sí,Sí,'De nada',No,'Tal vez',No,'No me interesa decirlo'
+'15/06/2022 1:08',30-35,Sí,'A veces',No,No,'De nada',No,Sí,No,'No me interesa decirlo'
+'15/06/2022 1:09',45-50,Sí,No,No,No,Sí,No,Sí,No,No
+'14/06/2022 22:19',35-40,Sí,'A veces',Sí,'A menudo',No,No,Sí,Sí,No
+'14/06/2022 20:03',40-45,Sí,No,No,Sí,Sí,No,Sí,Sí,No
+'14/06/2022 20:07',35-40,Sí,Sí,No,Sí,No,No,No,No,Sí
+'14/06/2022 22:04',30-35,Sí,'A veces','Dos o más días a la semana',No,Sí,No,Sí,No,No
+'14/06/2022 22:06',40-45,Sí,Sí,'Dos o más días a la semana',No,Sí,No,No,'A veces','No me interesa decirlo'
+'14/06/2022 22:09',40-45,Sí,'A veces','Dos o más días a la semana','A menudo',Sí,No,'Tal vez','A veces','No me interesa decirlo'
+'14/06/2022 22:10',40-45,Sí,'A veces','Dos o más días a la semana',Sí,No,No,Sí,Sí,'No me interesa decirlo'
+'14/06/2022 22:10',35-40,Sí,'A veces',Sí,Sí,Sí,No,'Tal vez','A veces',Sí
+'14/06/2022 22:17',40-45,Sí,No,'Dos o más días a la semana',Sí,No,No,'Tal vez','A veces','No me interesa decirlo'
+'14/06/2022 22:18',35-40,Sí,Sí,Sí,'A menudo',Sí,No,'Tal vez',No,No
+'14/06/2022 22:18',40-45,Sí,'A veces','Dos o más días a la semana',No,Sí,No,'Tal vez','A veces','No me interesa decirlo'
+'14/06/2022 23:36',30-35,Sí,Sí,Sí,'A menudo',Sí,No,'Tal vez',No,No
+'14/06/2022 23:36',30-35,Sí,'A veces','Dos o más días a la semana',No,Sí,No,'Tal vez','A veces','No me interesa decirlo'
+'15/06/2022 0:16',35-40,Sí,'A veces','Dos o más días a la semana',Sí,No,No,Sí,Sí,'No me interesa decirlo'
+'15/06/2022 0:16',35-40,Sí,'A veces',Sí,Sí,Sí,No,'Tal vez','A veces',Sí
+'15/06/2022 0:21',30-35,Sí,No,'Dos o más días a la semana',Sí,No,No,'Tal vez','A veces','No me interesa decirlo'
+'15/06/2022 0:21',25-30,Sí,Sí,Sí,'A menudo',Sí,No,'Tal vez',No,No
+'15/06/2022 0:22',30-35,Sí,'A veces','Dos o más días a la semana',No,Sí,No,'Tal vez','A veces','No me interesa decirlo'
+'15/06/2022 0:29',40-45,Sí,Sí,Sí,'A menudo',Sí,No,'Tal vez',No,No
+'15/06/2022 0:29',30-35,Sí,'A veces','Dos o más días a la semana',No,Sí,No,'Tal vez','A veces','No me interesa decirlo'
+'14/06/2022 22:17',40-45,Sí,No,'Dos o más días a la semana',Sí,No,No,'Tal vez','A veces','No me interesa decirlo'
+'14/06/2022 22:18',35-40,Sí,Sí,Sí,'A menudo',Sí,No,'Tal vez',No,No
+'14/06/2022 22:18',40-45,Sí,'A veces','Dos o más días a la semana',No,Sí,No,'Tal vez','A veces','No me interesa decirlo'
+'14/06/2022 23:36',30-35,Sí,Sí,Sí,'A menudo',Sí,No,'Tal vez',No,No
+'14/06/2022 23:36',30-35,Sí,'A veces','Dos o más días a la semana',No,Sí,No,'Tal vez','A veces','No me interesa decirlo'
+'15/06/2022 0:16',35-40,Sí,'A veces','Dos o más días a la semana',Sí,No,No,Sí,Sí,'No me interesa decirlo'
+'15/06/2022 0:16',35-40,Sí,'A veces',Sí,Sí,Sí,No,'Tal vez','A veces',Sí
+'15/06/2022 0:21',30-35,Sí,No,'Dos o más días a la semana',Sí,No,No,'Tal vez','A veces','No me interesa decirlo'
+'15/06/2022 0:21',25-30,Sí,Sí,Sí,'A menudo',Sí,No,'Tal vez',No,No
+'15/06/2022 0:22',30-35,Sí,'A veces','Dos o más días a la semana',No,Sí,No,'Tal vez','A veces','No me interesa decirlo'
+'15/06/2022 0:29',40-45,Sí,Sí,Sí,'A menudo',Sí,No,'Tal vez',No,No
+'15/06/2022 0:29',30-35,Sí,'A veces','Dos o más días a la semana',No,Sí,No,'Tal vez','A veces','No me interesa decirlo'
+'15/06/2022 1:02',40-45,Sí,No,Sí,Sí,'De nada',No,Sí,No,'No me interesa decirlo'
+'15/06/2022 1:08',40-45,Sí,No,No,Sí,'De nada',No,Sí,No,No
+'15/06/2022 1:09',35-40,Sí,'A veces',Sí,Sí,No,No,Sí,No,Sí
+'14/06/2022 22:19',30-35,Sí,Sí,'Dos o más días a la semana',Sí,No,No,Sí,Sí,No
+'14/06/2022 22:20',30-35,Sí,Sí,Sí,No,Sí,No,No,Sí,Sí
+'15/06/2022 22:24',35-40,Sí,Sí,Sí,Sí,'De nada',No,Sí,'A veces',Sí
+'15/06/2022 0:37',30-35,Sí,No,'Dos o más días a la semana',Sí,Sí,No,Sí,Sí,Sí
+'15/06/2022 0:40',25-30,Sí,No,Sí,Sí,No,No,'Tal vez','A veces',No
+'15/06/2022 1:02',40-45,Sí,Sí,Sí,Sí,'De nada',No,'Tal vez',No,'No me interesa decirlo'
+'15/06/2022 1:08',30-35,Sí,'A veces',No,No,'De nada',No,Sí,No,'No me interesa decirlo'
+'15/06/2022 1:09',45-50,Sí,No,No,No,Sí,No,Sí,No,No
+'14/06/2022 22:19',35-40,Sí,'A veces',Sí,'A menudo',No,No,Sí,Sí,No
+'14/06/2022 20:03',40-45,Sí,No,No,Sí,Sí,No,Sí,Sí,No
+'14/06/2022 20:07',35-40,Sí,Sí,No,Sí,No,No,No,No,Sí
+'14/06/2022 22:04',30-35,Sí,'A veces','Dos o más días a la semana',No,Sí,No,Sí,No,No
+'14/06/2022 22:06',40-45,Sí,Sí,'Dos o más días a la semana',No,Sí,No,No,'A veces','No me interesa decirlo'
+'14/06/2022 22:09',40-45,Sí,'A veces','Dos o más días a la semana','A menudo',Sí,No,'Tal vez','A veces','No me interesa decirlo'
+'14/06/2022 22:10',40-45,Sí,'A veces','Dos o más días a la semana',Sí,No,No,Sí,Sí,'No me interesa decirlo'
+'14/06/2022 22:10',35-40,Sí,'A veces',Sí,Sí,Sí,No,'Tal vez','A veces',Sí
+'14/06/2022 22:17',40-45,Sí,No,'Dos o más días a la semana',Sí,No,No,'Tal vez','A veces','No me interesa decirlo'
+'14/06/2022 22:18',35-40,Sí,Sí,Sí,'A menudo',Sí,No,'Tal vez',No,No
+'14/06/2022 22:18',40-45,Sí,'A veces','Dos o más días a la semana',No,Sí,No,'Tal vez','A veces','No me interesa decirlo'
+'14/06/2022 23:36',30-35,Sí,Sí,Sí,'A menudo',Sí,No,'Tal vez',No,No
+'14/06/2022 23:36',30-35,Sí,'A veces','Dos o más días a la semana',No,Sí,No,'Tal vez','A veces','No me interesa decirlo'
+'15/06/2022 0:16',35-40,Sí,'A veces','Dos o más días a la semana',Sí,No,No,Sí,Sí,'No me interesa decirlo'
+'15/06/2022 0:16',35-40,Sí,'A veces',Sí,Sí,Sí,No,'Tal vez','A veces',Sí
+'15/06/2022 0:21',30-35,Sí,No,'Dos o más días a la semana',Sí,No,No,'Tal vez','A veces','No me interesa decirlo'
+'15/06/2022 0:21',25-30,Sí,Sí,Sí,'A menudo',Sí,No,'Tal vez',No,No
+'15/06/2022 0:22',30-35,Sí,'A veces','Dos o más días a la semana',No,Sí,No,'Tal vez','A veces','No me interesa decirlo'
+'15/06/2022 0:29',40-45,Sí,Sí,Sí,'A menudo',Sí,No,'Tal vez',No,No
+'15/06/2022 0:29',30-35,Sí,'A veces','Dos o más días a la semana',No,Sí,No,'Tal vez','A veces','No me interesa decirlo'
+'14/06/2022 22:17',40-45,Sí,No,'Dos o más días a la semana',Sí,No,No,'Tal vez','A veces','No me interesa decirlo'
+'14/06/2022 22:18',35-40,Sí,Sí,Sí,'A menudo',Sí,No,'Tal vez',No,No
+'14/06/2022 22:18',40-45,Sí,'A veces','Dos o más días a la semana',No,Sí,No,'Tal vez','A veces','No me interesa decirlo'
+'14/06/2022 23:36',30-35,Sí,Sí,Sí,'A menudo',Sí,No,'Tal vez',No,No
+'14/06/2022 23:36',30-35,Sí,'A veces','Dos o más días a la semana',No,Sí,No,'Tal vez','A veces','No me interesa decirlo'
+'15/06/2022 0:16',35-40,Sí,'A veces','Dos o más días a la semana',Sí,No,No,Sí,Sí,'No me interesa decirlo'
+'15/06/2022 0:16',35-40,Sí,'A veces',Sí,Sí,Sí,No,'Tal vez','A veces',Sí
+'15/06/2022 0:21',30-35,Sí,No,'Dos o más días a la semana',Sí,No,No,'Tal vez','A veces','No me interesa decirlo'
+'15/06/2022 0:21',25-30,Sí,Sí,Sí,'A menudo',Sí,No,'Tal vez',No,No
+'15/06/2022 0:22',30-35,Sí,'A veces','Dos o más días a la semana',No,Sí,No,'Tal vez','A veces','No me interesa decirlo'
+'15/06/2022 0:29',40-45,Sí,Sí,Sí,'A menudo',Sí,No,'Tal vez',No,No
+'15/06/2022 0:29',30-35,Sí,'A veces','Dos o más días a la semana',No,Sí,No,'Tal vez','A veces','No me interesa decirlo'
+'14/06/2022 22:09',45-50,No,'A veces',No,Sí,No,No,No,No,No
+'14/06/2022 22:17',35-40,No,'A veces',Sí,No,Sí,No,Sí,No,Sí
+'14/06/2022 23:27',45-50,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'14/06/2022 23:32',30-35,No,No,No,Sí,'De nada',No,Sí,'A veces',Sí
+'14/06/2022 23:34',40-45,No,Sí,No,'A menudo','De nada',No,Sí,No,No
+'14/06/2022 23:38',40-45,No,'A veces',Sí,No,No,No,'Tal vez','A veces',Sí
+'14/06/2022 23:40',30-35,No,No,No,No,Sí,No,Sí,No,No
+'14/06/2022 23:40',30-35,No,No,'Dos o más días a la semana','A menudo',Sí,No,Sí,'A veces',No
+'14/06/2022 23:43',40-45,No,Sí,'Dos o más días a la semana',No,Sí,No,Sí,'A veces',Sí
+'14/06/2022 23:45',40-45,No,Sí,No,Sí,No,No,'Tal vez','A veces',No
+'14/06/2022 23:45',45-50,No,No,No,No,No,No,Sí,No,'No me interesa decirlo'
+'14/06/2022 23:48',30-35,No,Sí,No,Sí,'De nada',No,'Tal vez','A veces','No me interesa decirlo'
+'14/06/2022 23:52',40-45,No,Sí,No,Sí,'De nada',No,Sí,No,Sí
+'14/06/2022 23:53',30-35,No,'A veces',Sí,No,Sí,No,No,Sí,Sí
+'15/06/2022 0:02',30-35,No,Sí,No,No,Sí,No,No,Sí,Sí
+'15/06/2022 0:02',30-35,No,Sí,Sí,No,Sí,No,Sí,No,No
+'15/06/2022 0:06',30-35,No,No,No,Sí,Sí,No,Sí,'A veces',No
+'15/06/2022 0:10',35-40,No,Sí,Sí,No,Sí,No,Sí,No,Sí
+'15/06/2022 0:17',30-35,No,'A veces',Sí,Sí,Sí,No,No,Sí,'No me interesa decirlo'
+'15/06/2022 0:20',25-30,No,No,Sí,'A menudo',No,No,Sí,Sí,Sí
+'15/06/2022 0:27',40-45,No,Sí,'Dos o más días a la semana',No,'De nada',No,Sí,Sí,Sí
+'15/06/2022 0:28',25-30,No,Sí,No,Sí,Sí,No,No,No,Sí
+'15/06/2022 0:28',40-45,No,'A veces',Sí,'A menudo',No,No,Sí,'A veces',No
+'15/06/2022 0:30',45-50,No,'A veces','Dos o más días a la semana',No,'De nada',No,'Tal vez','A veces','No me interesa decirlo'
+'15/06/2022 0:31',30-35,No,'A veces','Dos o más días a la semana','A menudo',No,No,Sí,No,Sí
+'15/06/2022 0:33',40-45,No,Sí,Sí,No,'De nada',No,'Tal vez',No,Sí
+'15/06/2022 0:36',25-30,No,Sí,No,No,'De nada',No,Sí,Sí,Sí
+'15/06/2022 0:36',45-50,No,'A veces','Dos o más días a la semana',No,No,No,No,Sí,No
+'15/06/2022 0:38',30-35,No,'A veces','Dos o más días a la semana',No,Sí,No,'Tal vez','A veces',No
+'15/06/2022 0:39',25-30,No,No,'Dos o más días a la semana',Sí,No,No,'Tal vez',No,'No me interesa decirlo'
+'15/06/2022 1:05',25-30,No,Sí,No,Sí,'De nada',No,Sí,No,Sí
+'15/06/2022 22:18',30-35,No,No,Sí,Sí,No,No,Sí,Sí,No
+'15/06/2022 0:36',35-40,No,'A veces',Sí,No,'De nada',No,No,'A veces',No
+'15/06/2022 0:38',25-30,No,No,'Dos o más días a la semana',No,'De nada',No,No,Sí,No
+'15/06/2022 0:39',45-50,No,No,No,Sí,Sí,No,Sí,Sí,No
+'15/06/2022 1:13',40-45,No,No,No,'A menudo',No,No,Sí,No,'No me interesa decirlo'
+'14/06/2022 22:18',30-35,No,Sí,'Dos o más días a la semana',Sí,No,No,Sí,No,Sí
+'15/06/2022 22:24',40-45,No,Sí,'Dos o más días a la semana',Sí,No,No,Sí,Sí,No
+'14/06/2022 22:09',45-50,No,'A veces',No,Sí,No,No,No,No,No
+'14/06/2022 22:17',35-40,No,'A veces',Sí,No,Sí,No,Sí,No,Sí
+'14/06/2022 23:27',45-50,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'14/06/2022 23:32',30-35,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'14/06/2022 23:39',35-40,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'14/06/2022 23:43',45-50,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'14/06/2022 23:48',30-35,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:02',30-35,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:13',35-40,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:20',25-30,No,'A veces',Sí,No,Sí,No,Sí,No,Sí
+'15/06/2022 0:25',40-45,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:27',40-45,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:30',35-40,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:32',35-40,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:35',25-30,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:40',25-30,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'14/06/2022 22:19',30-35,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'14/06/2022 22:09',45-50,No,'A veces',No,Sí,No,No,No,No,No
+'14/06/2022 22:17',35-40,No,'A veces',Sí,No,Sí,No,Sí,No,Sí
+'14/06/2022 23:27',45-50,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'14/06/2022 23:32',30-35,No,No,No,Sí,'De nada',No,Sí,'A veces',Sí
+'14/06/2022 23:34',40-45,No,Sí,No,'A menudo','De nada',No,Sí,No,No
+'14/06/2022 23:38',40-45,No,'A veces',Sí,No,No,No,'Tal vez','A veces',Sí
+'14/06/2022 23:40',30-35,No,No,No,No,Sí,No,Sí,No,No
+'14/06/2022 23:40',30-35,No,No,'Dos o más días a la semana','A menudo',Sí,No,Sí,'A veces',No
+'14/06/2022 23:43',40-45,No,Sí,'Dos o más días a la semana',No,Sí,No,Sí,'A veces',Sí
+'14/06/2022 23:45',40-45,No,Sí,No,Sí,No,No,'Tal vez','A veces',No
+'14/06/2022 23:45',45-50,No,No,No,No,No,No,Sí,No,'No me interesa decirlo'
+'14/06/2022 23:48',30-35,No,Sí,No,Sí,'De nada',No,'Tal vez','A veces','No me interesa decirlo'
+'14/06/2022 23:52',40-45,No,Sí,No,Sí,'De nada',No,Sí,No,Sí
+'14/06/2022 23:53',30-35,No,'A veces',Sí,No,Sí,No,No,Sí,Sí
+'15/06/2022 0:02',30-35,No,Sí,No,No,Sí,No,No,Sí,Sí
+'15/06/2022 0:02',30-35,No,Sí,Sí,No,Sí,No,Sí,No,No
+'15/06/2022 0:06',30-35,No,No,No,Sí,Sí,No,Sí,'A veces',No
+'15/06/2022 0:10',35-40,No,Sí,Sí,No,Sí,No,Sí,No,Sí
+'15/06/2022 0:17',30-35,No,'A veces',Sí,Sí,Sí,No,No,Sí,'No me interesa decirlo'
+'15/06/2022 0:20',25-30,No,No,Sí,'A menudo',No,No,Sí,Sí,Sí
+'15/06/2022 0:27',40-45,No,Sí,'Dos o más días a la semana',No,'De nada',No,Sí,Sí,Sí
+'15/06/2022 0:28',25-30,No,Sí,No,Sí,Sí,No,No,No,Sí
+'15/06/2022 0:28',40-45,No,'A veces',Sí,'A menudo',No,No,Sí,'A veces',No
+'15/06/2022 0:30',45-50,No,'A veces','Dos o más días a la semana',No,'De nada',No,'Tal vez','A veces','No me interesa decirlo'
+'15/06/2022 0:31',30-35,No,'A veces','Dos o más días a la semana','A menudo',No,No,Sí,No,Sí
+'15/06/2022 0:33',40-45,No,Sí,Sí,No,'De nada',No,'Tal vez',No,Sí
+'15/06/2022 0:36',25-30,No,Sí,No,No,'De nada',No,Sí,Sí,Sí
+'15/06/2022 0:36',45-50,No,'A veces','Dos o más días a la semana',No,No,No,No,Sí,No
+'15/06/2022 0:38',30-35,No,'A veces','Dos o más días a la semana',No,Sí,No,'Tal vez','A veces',No
+'15/06/2022 0:39',25-30,No,No,'Dos o más días a la semana',Sí,No,No,'Tal vez',No,'No me interesa decirlo'
+'15/06/2022 1:05',25-30,No,Sí,No,Sí,'De nada',No,Sí,No,Sí
+'15/06/2022 22:18',30-35,No,No,Sí,Sí,No,No,Sí,Sí,No
+'15/06/2022 0:36',35-40,No,'A veces',Sí,No,'De nada',No,No,'A veces',No
+'15/06/2022 0:38',25-30,No,No,'Dos o más días a la semana',No,'De nada',No,No,Sí,No
+'15/06/2022 0:39',45-50,No,No,No,Sí,Sí,No,Sí,Sí,No
+'15/06/2022 1:13',40-45,No,No,No,'A menudo',No,No,Sí,No,'No me interesa decirlo'
+'14/06/2022 22:18',30-35,No,Sí,'Dos o más días a la semana',Sí,No,No,Sí,No,Sí
+'15/06/2022 22:24',40-45,No,Sí,'Dos o más días a la semana',Sí,No,No,Sí,Sí,No
+'14/06/2022 22:09',45-50,No,'A veces',No,Sí,No,No,No,No,No
+'14/06/2022 22:17',35-40,No,'A veces',Sí,No,Sí,No,Sí,No,Sí
+'14/06/2022 23:27',45-50,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'14/06/2022 23:32',30-35,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'14/06/2022 23:39',35-40,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'14/06/2022 23:43',45-50,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'14/06/2022 23:48',30-35,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:02',30-35,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:13',35-40,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:20',25-30,No,'A veces',Sí,No,Sí,No,Sí,No,Sí
+'15/06/2022 0:25',40-45,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:27',40-45,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:30',35-40,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:32',35-40,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:35',25-30,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:40',25-30,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'14/06/2022 22:17',35-40,No,'A veces',Sí,No,Sí,No,Sí,No,Sí
+'14/06/2022 23:27',45-50,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'14/06/2022 23:32',30-35,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'14/06/2022 23:39',35-40,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'14/06/2022 23:43',45-50,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'14/06/2022 23:48',30-35,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:02',30-35,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:13',35-40,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:20',25-30,No,'A veces',Sí,No,Sí,No,Sí,No,Sí
+'15/06/2022 0:25',40-45,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:27',40-45,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:30',35-40,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:32',35-40,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:35',25-30,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 1:05',25-30,No,Sí,No,Sí,'De nada',No,Sí,No,Sí
+'15/06/2022 22:18',30-35,No,No,Sí,Sí,No,No,Sí,Sí,No
+'15/06/2022 0:36',35-40,No,'A veces',Sí,No,'De nada',No,No,'A veces',No
+'15/06/2022 0:38',25-30,No,No,'Dos o más días a la semana',No,'De nada',No,No,Sí,No
+'15/06/2022 0:39',45-50,No,No,No,Sí,Sí,No,Sí,Sí,No
+'15/06/2022 1:13',40-45,No,No,No,'A menudo',No,No,Sí,No,'No me interesa decirlo'
+'14/06/2022 22:18',30-35,No,Sí,'Dos o más días a la semana',Sí,No,No,Sí,No,Sí
+'15/06/2022 22:24',40-45,No,Sí,'Dos o más días a la semana',Sí,No,No,Sí,Sí,No
+'14/06/2022 22:09',45-50,No,'A veces',No,Sí,No,No,No,No,No
+'14/06/2022 22:17',35-40,No,'A veces',Sí,No,Sí,No,Sí,No,Sí
+'14/06/2022 23:27',45-50,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'14/06/2022 23:32',30-35,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'14/06/2022 23:39',35-40,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'14/06/2022 23:43',45-50,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'14/06/2022 23:48',30-35,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:02',30-35,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:13',35-40,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:20',25-30,No,'A veces',Sí,No,Sí,No,Sí,No,Sí
+'15/06/2022 0:25',40-45,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:27',40-45,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:30',35-40,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:32',35-40,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:35',25-30,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:40',25-30,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'14/06/2022 22:17',35-40,No,'A veces',Sí,No,Sí,No,Sí,No,Sí
+'14/06/2022 23:27',45-50,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'14/06/2022 23:32',30-35,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'14/06/2022 23:39',35-40,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'14/06/2022 23:43',45-50,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'14/06/2022 23:48',30-35,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:02',30-35,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:13',35-40,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:20',25-30,No,'A veces',Sí,No,Sí,No,Sí,No,Sí
+'15/06/2022 0:25',40-45,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:27',40-45,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:30',35-40,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:32',35-40,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:35',25-30,No,'A veces','Dos o más días a la semana',No,No,No,Sí,No,'No me interesa decirlo'
+'14/06/2022 22:06',35-40,'A veces','A veces',Sí,'A menudo',Sí,No,Sí,Sí,Sí
+'14/06/2022 22:08',40-45,'A veces',Sí,No,Sí,No,No,Sí,No,Sí
+'14/06/2022 22:16',45-50,'A veces',Sí,Sí,No,'De nada',No,No,Sí,'No me interesa decirlo'
+'14/06/2022 22:17',35-40,'A veces',Sí,'Dos o más días a la semana','A menudo',Sí,No,Sí,'A veces','No me interesa decirlo'
+'14/06/2022 23:28',40-45,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'14/06/2022 23:33',40-45,'A veces',Sí,Sí,'A menudo','De nada',No,No,Sí,Sí
+'14/06/2022 23:36',30-35,'A veces',No,Sí,No,No,No,Sí,Sí,No
+'14/06/2022 23:39',35-40,'A veces',No,No,Sí,No,No,Sí,Sí,No
+'14/06/2022 23:41',30-35,'A veces',No,Sí,No,Sí,No,Sí,No,No
+'14/06/2022 23:41',30-35,'A veces',Sí,Sí,No,Sí,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:18',45-50,'A veces','A veces',Sí,'A menudo',Sí,No,'Tal vez',Sí,'No me interesa decirlo'
+'15/06/2022 0:21',30-35,'A veces',Sí,'Dos o más días a la semana',No,No,No,'Tal vez',Sí,'No me interesa decirlo'
+'15/06/2022 0:27',25-30,'A veces','A veces','Dos o más días a la semana','A menudo','De nada',No,Sí,'A veces',Sí
+'15/06/2022 0:29',30-35,'A veces',Sí,No,No,Sí,No,'Tal vez',Sí,No
+'15/06/2022 0:29',35-40,'A veces',Sí,Sí,No,Sí,No,Sí,'A veces',No
+'15/06/2022 0:29',35-40,'A veces',No,Sí,Sí,'De nada',No,Sí,Sí,No
+'15/06/2022 0:31',35-40,'A veces','A veces',No,Sí,No,No,No,No,Sí
+'15/06/2022 0:31',35-40,'A veces',No,Sí,No,No,No,Sí,No,No
+'15/06/2022 0:33',45-50,'A veces',No,No,Sí,Sí,No,No,'A veces','No me interesa decirlo'
+'15/06/2022 0:34',35-40,'A veces',No,'Dos o más días a la semana',No,No,No,Sí,'A veces','No me interesa decirlo'
+'15/06/2022 0:35',25-30,'A veces',No,'Dos o más días a la semana',No,Sí,No,No,'A veces',No
+'15/06/2022 0:35',25-30,'A veces',Sí,Sí,'A menudo','De nada',No,Sí,'A veces','No me interesa decirlo'
+'15/06/2022 0:37',35-40,'A veces',Sí,Sí,No,Sí,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:39',25-30,'A veces',No,No,'A menudo',Sí,No,'Tal vez','A veces',Sí
+'15/06/2022 1:09',25-30,'A veces',No,Sí,No,Sí,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:34',45-50,'A veces',No,Sí,No,'De nada',No,No,'A veces','No me interesa decirlo'
+'15/06/2022 0:35',25-30,'A veces',Sí,'Dos o más días a la semana',Sí,No,No,'Tal vez',No,Sí
+'15/06/2022 0:35',25-30,'A veces','A veces',Sí,Sí,No,No,Sí,'A veces','No me interesa decirlo'
+'15/06/2022 0:37',25-30,'A veces',No,Sí,Sí,No,No,Sí,'A veces','No me interesa decirlo'
+'15/06/2022 0:39',25-30,'A veces',No,No,No,Sí,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:40',35-40,'A veces',No,'Dos o más días a la semana',Sí,No,No,'Tal vez','A veces',Sí
+'15/06/2022 1:09',35-40,'A veces','A veces',Sí,No,No,No,Sí,No,Sí
+'15/06/2022 22:24',30-35,'A veces','A veces',No,No,No,No,No,Sí,Sí
+'14/06/2022 22:06',35-40,'A veces','A veces',Sí,'A menudo',Sí,No,Sí,Sí,Sí
+'14/06/2022 22:08',40-45,'A veces',Sí,No,Sí,No,No,Sí,No,Sí
+'14/06/2022 22:16',45-50,'A veces',Sí,Sí,No,'De nada',No,No,Sí,'No me interesa decirlo'
+'14/06/2022 22:17',35-40,'A veces',Sí,'Dos o más días a la semana','A menudo',Sí,No,Sí,'A veces','No me interesa decirlo'
+'14/06/2022 23:28',40-45,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'14/06/2022 23:33',40-45,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'14/06/2022 23:40',45-50,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'14/06/2022 23:44',45-50,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'14/06/2022 23:49',45-50,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 0:06',30-35,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 0:07',30-35,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 0:14',40-45,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 0:20',25-30,'A veces',Sí,Sí,No,'De nada',No,No,Sí,'No me interesa decirlo'
+'15/06/2022 0:20',25-30,'A veces',Sí,'Dos o más días a la semana','A menudo',Sí,No,Sí,'A veces','No me interesa decirlo'
+'15/06/2022 0:25',35-40,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 0:28',40-45,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 0:30',40-45,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 0:32',45-50,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 0:36',45-50,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 1:02',40-45,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 1:08',40-45,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 1:13',25-30,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'14/06/2022 22:06',35-40,'A veces','A veces',Sí,'A menudo',Sí,No,Sí,Sí,Sí
+'14/06/2022 22:08',40-45,'A veces',Sí,No,Sí,No,No,Sí,No,Sí
+'14/06/2022 22:16',45-50,'A veces',Sí,Sí,No,'De nada',No,No,Sí,'No me interesa decirlo'
+'14/06/2022 22:17',35-40,'A veces',Sí,'Dos o más días a la semana','A menudo',Sí,No,Sí,'A veces','No me interesa decirlo'
+'14/06/2022 23:28',40-45,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'14/06/2022 23:33',40-45,'A veces',Sí,Sí,'A menudo','De nada',No,No,Sí,Sí
+'14/06/2022 23:36',30-35,'A veces',No,Sí,No,No,No,Sí,Sí,No
+'14/06/2022 23:39',35-40,'A veces',No,No,Sí,No,No,Sí,Sí,No
+'14/06/2022 23:41',30-35,'A veces',No,Sí,No,Sí,No,Sí,No,No
+'14/06/2022 23:41',30-35,'A veces',Sí,Sí,No,Sí,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:18',45-50,'A veces','A veces',Sí,'A menudo',Sí,No,'Tal vez',Sí,'No me interesa decirlo'
+'15/06/2022 0:21',30-35,'A veces',Sí,'Dos o más días a la semana',No,No,No,'Tal vez',Sí,'No me interesa decirlo'
+'15/06/2022 0:27',25-30,'A veces','A veces','Dos o más días a la semana','A menudo','De nada',No,Sí,'A veces',Sí
+'15/06/2022 0:29',30-35,'A veces',Sí,No,No,Sí,No,'Tal vez',Sí,No
+'15/06/2022 0:29',35-40,'A veces',Sí,Sí,No,Sí,No,Sí,'A veces',No
+'15/06/2022 0:29',35-40,'A veces',No,Sí,Sí,'De nada',No,Sí,Sí,No
+'15/06/2022 0:31',35-40,'A veces','A veces',No,Sí,No,No,No,No,Sí
+'15/06/2022 0:31',35-40,'A veces',No,Sí,No,No,No,Sí,No,No
+'15/06/2022 0:33',45-50,'A veces',No,No,Sí,Sí,No,No,'A veces','No me interesa decirlo'
+'15/06/2022 0:34',35-40,'A veces',No,'Dos o más días a la semana',No,No,No,Sí,'A veces','No me interesa decirlo'
+'15/06/2022 0:35',25-30,'A veces',No,'Dos o más días a la semana',No,Sí,No,No,'A veces',No
+'15/06/2022 0:35',25-30,'A veces',Sí,Sí,'A menudo','De nada',No,Sí,'A veces','No me interesa decirlo'
+'15/06/2022 0:37',35-40,'A veces',Sí,Sí,No,Sí,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:39',25-30,'A veces',No,No,'A menudo',Sí,No,'Tal vez','A veces',Sí
+'15/06/2022 1:09',25-30,'A veces',No,Sí,No,Sí,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:34',45-50,'A veces',No,Sí,No,'De nada',No,No,'A veces','No me interesa decirlo'
+'15/06/2022 0:35',25-30,'A veces',Sí,'Dos o más días a la semana',Sí,No,No,'Tal vez',No,Sí
+'15/06/2022 0:35',25-30,'A veces','A veces',Sí,Sí,No,No,Sí,'A veces','No me interesa decirlo'
+'15/06/2022 0:37',25-30,'A veces',No,Sí,Sí,No,No,Sí,'A veces','No me interesa decirlo'
+'15/06/2022 0:39',25-30,'A veces',No,No,No,Sí,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:40',35-40,'A veces',No,'Dos o más días a la semana',Sí,No,No,'Tal vez','A veces',Sí
+'15/06/2022 1:09',35-40,'A veces','A veces',Sí,No,No,No,Sí,No,Sí
+'15/06/2022 22:24',30-35,'A veces','A veces',No,No,No,No,No,Sí,Sí
+'14/06/2022 22:06',35-40,'A veces','A veces',Sí,'A menudo',Sí,No,Sí,Sí,Sí
+'14/06/2022 22:08',40-45,'A veces',Sí,No,Sí,No,No,Sí,No,Sí
+'14/06/2022 22:16',45-50,'A veces',Sí,Sí,No,'De nada',No,No,Sí,'No me interesa decirlo'
+'14/06/2022 22:17',35-40,'A veces',Sí,'Dos o más días a la semana','A menudo',Sí,No,Sí,'A veces','No me interesa decirlo'
+'14/06/2022 23:28',40-45,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'14/06/2022 23:33',40-45,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'14/06/2022 23:40',45-50,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'14/06/2022 23:44',45-50,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'14/06/2022 23:49',45-50,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 0:06',30-35,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 0:07',30-35,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 0:14',40-45,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 0:20',25-30,'A veces',Sí,Sí,No,'De nada',No,No,Sí,'No me interesa decirlo'
+'15/06/2022 0:20',25-30,'A veces',Sí,'Dos o más días a la semana','A menudo',Sí,No,Sí,'A veces','No me interesa decirlo'
+'15/06/2022 0:25',35-40,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 0:28',40-45,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 0:30',40-45,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 0:32',45-50,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 0:36',45-50,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 1:02',40-45,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 1:08',40-45,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'14/06/2022 22:16',45-50,'A veces',Sí,Sí,No,'De nada',No,No,Sí,'No me interesa decirlo'
+'14/06/2022 22:17',35-40,'A veces',Sí,'Dos o más días a la semana','A menudo',Sí,No,Sí,'A veces','No me interesa decirlo'
+'14/06/2022 23:28',40-45,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'14/06/2022 23:33',40-45,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'14/06/2022 23:40',45-50,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'14/06/2022 23:44',45-50,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'14/06/2022 23:49',45-50,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 0:06',30-35,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 0:07',30-35,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 0:14',40-45,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 0:20',25-30,'A veces',Sí,Sí,No,'De nada',No,No,Sí,'No me interesa decirlo'
+'15/06/2022 0:20',25-30,'A veces',Sí,'Dos o más días a la semana','A menudo',Sí,No,Sí,'A veces','No me interesa decirlo'
+'15/06/2022 0:25',35-40,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 0:28',40-45,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 0:30',40-45,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 0:32',45-50,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 0:36',45-50,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 1:09',25-30,'A veces',No,Sí,No,Sí,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:34',45-50,'A veces',No,Sí,No,'De nada',No,No,'A veces','No me interesa decirlo'
+'15/06/2022 0:35',25-30,'A veces',Sí,'Dos o más días a la semana',Sí,No,No,'Tal vez',No,Sí
+'15/06/2022 0:35',25-30,'A veces','A veces',Sí,Sí,No,No,Sí,'A veces','No me interesa decirlo'
+'15/06/2022 0:37',25-30,'A veces',No,Sí,Sí,No,No,Sí,'A veces','No me interesa decirlo'
+'15/06/2022 0:39',25-30,'A veces',No,No,No,Sí,No,Sí,No,'No me interesa decirlo'
+'15/06/2022 0:40',35-40,'A veces',No,'Dos o más días a la semana',Sí,No,No,'Tal vez','A veces',Sí
+'15/06/2022 1:09',35-40,'A veces','A veces',Sí,No,No,No,Sí,No,Sí
+'15/06/2022 22:24',30-35,'A veces','A veces',No,No,No,No,No,Sí,Sí
+'14/06/2022 22:06',35-40,'A veces','A veces',Sí,'A menudo',Sí,No,Sí,Sí,Sí
+'14/06/2022 22:08',40-45,'A veces',Sí,No,Sí,No,No,Sí,No,Sí
+'14/06/2022 22:16',45-50,'A veces',Sí,Sí,No,'De nada',No,No,Sí,'No me interesa decirlo'
+'14/06/2022 22:17',35-40,'A veces',Sí,'Dos o más días a la semana','A menudo',Sí,No,Sí,'A veces','No me interesa decirlo'
+'14/06/2022 23:28',40-45,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'14/06/2022 23:33',40-45,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'14/06/2022 23:40',45-50,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'14/06/2022 23:44',45-50,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'14/06/2022 23:49',45-50,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 0:06',30-35,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 0:07',30-35,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 0:14',40-45,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 0:20',25-30,'A veces',Sí,Sí,No,'De nada',No,No,Sí,'No me interesa decirlo'
+'15/06/2022 0:20',25-30,'A veces',Sí,'Dos o más días a la semana','A menudo',Sí,No,Sí,'A veces','No me interesa decirlo'
+'15/06/2022 0:25',35-40,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 0:28',40-45,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 0:30',40-45,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 0:32',45-50,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 0:36',45-50,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 1:02',40-45,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 1:08',40-45,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'14/06/2022 22:16',45-50,'A veces',Sí,Sí,No,'De nada',No,No,Sí,'No me interesa decirlo'
+'14/06/2022 22:17',35-40,'A veces',Sí,'Dos o más días a la semana','A menudo',Sí,No,Sí,'A veces','No me interesa decirlo'
+'14/06/2022 23:28',40-45,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'14/06/2022 23:33',40-45,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'14/06/2022 23:40',45-50,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'14/06/2022 23:44',45-50,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'14/06/2022 23:49',45-50,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 0:06',30-35,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 0:07',30-35,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 0:14',40-45,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 0:20',25-30,'A veces',Sí,Sí,No,'De nada',No,No,Sí,'No me interesa decirlo'
+'15/06/2022 0:20',25-30,'A veces',Sí,'Dos o más días a la semana','A menudo',Sí,No,Sí,'A veces','No me interesa decirlo'
+'15/06/2022 0:25',35-40,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 0:28',40-45,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 0:30',40-45,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 0:32',45-50,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
+'15/06/2022 0:36',45-50,'A veces','A veces','Dos o más días a la semana',No,No,No,'Tal vez',No,No
